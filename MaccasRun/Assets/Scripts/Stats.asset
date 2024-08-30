@@ -13,14 +13,14 @@ MonoBehaviour:
   m_Name: Stats
   m_EditorClassIdentifier: 
   MoveThreshold: 0.25
-  MaxWalkSpeed: 12.5
+  MaxWalkSpeed: 16.3
   GroundAcceleration: 5
   GroundDeceleration: 20
-  AirAcceleration: 5
-  AirDeceleration: 5
+  AirAcceleration: 4
+  AirDeceleration: 5.5
   WallJumpMoveAcceleration: 5
-  WallJumpMoveDeceleration: 5
-  MaxRunSpeed: 20
+  WallJumpMoveDeceleration: 6
+  MaxRunSpeed: 30
   GroundLayer:
     serializedVersion: 2
     m_Bits: 8
@@ -29,13 +29,13 @@ MonoBehaviour:
   WallDetectionRayLength: 0.125
   WallDetectionRayHeightMultiplier: 0.9
   HeadWidth: 0.75
-  JumpHeight: 6.5
-  JumpHeightCompensationFactor: 1.054
+  JumpHeight: 7
+  JumpHeightCompensationFactor: 1.0756
   TimeTillJumpApex: 0.35
-  GravityOnReleaseMultiplier: 2
+  GravityOnReleaseMultiplier: 3
   MaxFallSpeed: 26
   NumberOfJumpsAllowed: 2
-  ResetJumpsOnWallSlide: 1
+  ResetJumpsOnWallSlide: 0
   TimeForUpwardsCancel: 0.027
   ApexThreshold: 0.97
   ApexHangTime: 0.075
@@ -54,10 +54,10 @@ MonoBehaviour:
   DashDiagonallyBias: 0.4
   DashGravityOnReleaseMultiplier: 1
   DashTimeForUpwardsCancel: 0.027
-  DebugShowIsGroundedBox: 0
-  DebugShowHeadBumpBox: 0
-  DebugShowWallHitBox: 0
-  DebugShowHeightLogOnLand: 0
+  DebugShowIsGroundedBox: 1
+  DebugShowHeadBumpBox: 1
+  DebugShowWallHitBox: 1
+  DebugShowHeightLogOnLand: 1
   TimeScale: 1
   ShowWalkJumpArc: 1
   ShowRunJumpArc: 1

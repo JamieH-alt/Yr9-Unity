@@ -199,8 +199,9 @@ public class PlayerMovementV2 : MonoBehaviour
             {
                 _isFalling = true;
                 _trailRenderer.emitting = true;
-                _anim.ResetTrigger("land");
-                _anim.SetTrigger("fall");
+                // _anim.ResetTrigger("land");
+                _anim.SetInteger("AnimState", 0);
+                // _anim.SetTrigger("fall");
             }
 
             IncrementVerticalVelocity(MoveStats.Gravity * Time.fixedDeltaTime);
@@ -235,7 +236,8 @@ public class PlayerMovementV2 : MonoBehaviour
             ResetDashValues();
 
             //new
-            _anim.SetTrigger("land");
+            // _anim.SetTrigger("land");
+            _anim.SetInteger("AnimState", 0);
             Instantiate(_landParticles, _particleSpawnTransform.position, Quaternion.identity);
 
             //height tracker
@@ -258,15 +260,17 @@ public class PlayerMovementV2 : MonoBehaviour
         {
             if ((Mathf.Abs(moveInput.x) < MoveStats.MoveThreshold) && InputManager.RunIsHeld)
             {
-                _anim.SetBool("isWalking", false);
+                // _anim.SetBool("isWalking", false);
+                _anim.SetInteger("AnimState", 0);
                 HorizontalVelocity = Vector2.Lerp(HorizontalVelocity, Vector2.zero, deceleration * Time.fixedDeltaTime);
                 //ApplyMovementVelocity(HorizontalVelocity);
             }
 
             else if ((Mathf.Abs(moveInput.x) < MoveStats.MoveThreshold) && !InputManager.RunIsHeld)
             {
-                _anim.SetBool("isWalking", false);
-                _anim.SetBool("isRunning", false);
+                // _anim.SetBool("isWalking", false);
+                // _anim.SetBool("isRunning", false);
+                // _anim.SetInteger("AnimState", 0);
                 if (_speedParticles.isPlaying)
                 {
                     _speedParticles.Stop();
@@ -280,12 +284,13 @@ public class PlayerMovementV2 : MonoBehaviour
             {
                 TurnCheck(moveInput);
 
-                _anim.SetBool("isWalking", true);
+                // _anim.SetBool("isWalking", true);
+                _anim.SetInteger("AnimState", 1);
                 Vector2 targetVelocity = Vector2.zero;
 
                 if (InputManager.RunIsHeld)
                 {
-                    _anim.SetBool("isRunning", true);
+                    // _anim.SetBool("isRunning", true);
 
                     targetVelocity = new Vector2(moveInput.x, 0f) * MoveStats.MaxRunSpeed;
 
@@ -316,7 +321,7 @@ public class PlayerMovementV2 : MonoBehaviour
 
         if (!InputManager.RunIsHeld)
         {
-            _anim.SetBool("isRunning", false);
+            // _anim.SetBool("isRunning", false);
             if (_speedParticles.isPlaying)
             {
                 _speedParticles.Stop();
@@ -462,8 +467,9 @@ public class PlayerMovementV2 : MonoBehaviour
         ChangeVerticalVelocity(MoveStats.InitialJumpVelocity);
 
         //FX
-        _anim.SetTrigger("jump");
-        _anim.ResetTrigger("land");
+        // _anim.SetTrigger("jump");
+        // _anim.ResetTrigger("land");
+        _anim.SetInteger("AnimState", 2);
         _trailRenderer.emitting = true;
 
         Instantiate(particlesToSpawn, _particleSpawnTransform.position, Quaternion.identity);
@@ -586,7 +592,8 @@ public class PlayerMovementV2 : MonoBehaviour
                 _isWallSlideFalling = false;
                 IsWallSliding = true;
 
-                _anim.SetBool("isWallSliding", true);
+                // _anim.SetBool("isWallSliding", true);
+                _anim.SetInteger("AnimState", 0);
 
                 if (MoveStats.ResetJumpsOnWallSlide)
                 {
@@ -622,7 +629,7 @@ public class PlayerMovementV2 : MonoBehaviour
             _numberOfJumpsUsed++;
 
             IsWallSliding = false;
-            _anim.SetBool("isWallSliding", false);
+            // _anim.SetBool("isWallSliding", false);
         }
     }
 
@@ -783,8 +790,9 @@ public class PlayerMovementV2 : MonoBehaviour
         HorizontalVelocity = new Vector2((Mathf.Abs(MoveStats.WallJumpDirection.x) * dirMultiplier), 0f);
 
         //FX
-        _anim.SetTrigger("jump");
-        _anim.ResetTrigger("land");
+        // _anim.SetTrigger("jump");
+        _anim.SetInteger("AnimState", 2);
+        // _anim.ResetTrigger("land");
         _trailRenderer.emitting = true;
 
         //Instantiate(particlesToSpawn, _particleSpawnTransform.position, Quaternion.identity);
@@ -903,8 +911,9 @@ public class PlayerMovementV2 : MonoBehaviour
         Quaternion particleRot = Quaternion.FromToRotation(Vector2.right, -_dashDirection);
         Instantiate(_dashParticles, transform.position, particleRot);
 
-        _anim.SetBool("isDashing", true);
-        _ghostTrail.LeaveGhostTrail(MoveStats.DashTime * 1.75f);
+        // _anim.SetBool("isDashing", true);
+        _anim.SetInteger("AnimState", 0);
+        // _ghostTrail.LeaveGhostTrail(MoveStats.DashTime * 1.75f);
 
         ResetJumpValues();
         ResetWallJumpValues();
@@ -920,7 +929,7 @@ public class PlayerMovementV2 : MonoBehaviour
     {
         _isDashFastFalling = false;
         _dashOnGroundTimer = -0.01f;
-        _anim.SetBool("isAirDashFalling", false);
+        // _anim.SetBool("isAirDashFalling", false);
     }
 
     private void Dash()
@@ -935,12 +944,12 @@ public class PlayerMovementV2 : MonoBehaviour
                 {
                     ResetDashes();
                 }
-                else { _anim.SetBool("isAirDashFalling", true); }
+                // else { _anim.SetBool("isAirDashFalling", true); }
 
                 _isAirDashing = false;
                 _isDashing = false;
 
-                _anim.SetBool("isDashing", false);
+                // _anim.SetBool("isDashing", false);
 
                 //start the time for upwards cancel
                 if (!_isJumping && !_isWallJumping)

@@ -219,6 +219,17 @@
                 },
                 {
                     "name": "",
+                    "id": "5302bfc3-3418-49e6-9dbc-733dc5cd4962",
+                    "path": "<Keyboard>/rightCtrl",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Dash",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
                     "id": "1eca0036-7ea5-4fe2-9aff-4c2df6451636",
                     "path": "",
                     "interactions": "",
