@@ -20,6 +20,9 @@ public class InputManager : MonoBehaviour
     private InputAction _runAction;
     private InputAction _dashAction;
     private InputAction _testAction;
+    private InputAction _optionsAction;
+
+    [SerializeField] private GameObject settingsUi;
 
     private void Awake()
     {
@@ -30,11 +33,23 @@ public class InputManager : MonoBehaviour
         _runAction = PlayerInput.actions["Run"];
         _dashAction = PlayerInput.actions["Dash"];
 
+        _optionsAction = PlayerInput.actions["Options"];
+
         _testAction = PlayerInput.actions["Test"];
     }
 
     private void Update()
     {
+        if (_optionsAction.WasPressedThisFrame() && settingsUi != null) {
+            if (settingsUi.activeInHierarchy) {
+                settingsUi.SetActive(false);
+                Time.timeScale = 1f;
+            } else {
+                settingsUi.SetActive(true);
+                Time.timeScale = 0f;
+            }
+        }
+
         Movement = _moveAction.ReadValue<Vector2>();
 
         JumpWasPressed = _jumpAction.WasPressedThisFrame();
@@ -42,6 +57,7 @@ public class InputManager : MonoBehaviour
         JumpWasReleased = _jumpAction.WasReleasedThisFrame();
 
         RunIsHeld = _runAction.IsPressed();
+
 
         DashWasPressed = _dashAction.WasPressedThisFrame();
 

@@ -1,6 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.Audio;
 
 public class PlayerMovementV2 : MonoBehaviour
 {
@@ -21,6 +23,11 @@ public class PlayerMovementV2 : MonoBehaviour
 
     [Header("Height Tracker")]
     [SerializeField] private Transform _heightTracker;
+
+    [Header("Sound")]
+    [SerializeField] private AudioMixerGroup _FX;
+    [SerializeField] private AudioClip _jumpClip;
+    [SerializeField] private AudioClip _dashClip;
 
     private Rigidbody2D _rb;
     private Animator _anim;
@@ -91,8 +98,14 @@ public class PlayerMovementV2 : MonoBehaviour
     private float _highestPoint;
     private float _heightTrackerStartingPoint;
 
+    public static PlayerMovementV2 instance;
+
     private void Awake()
     {
+        if (instance == null) {
+            instance = this;
+        }
+
         _isFacingRight = true;
 
         _rb = GetComponent<Rigidbody2D>();
@@ -453,7 +466,7 @@ public class PlayerMovementV2 : MonoBehaviour
         }
     }
 
-    private void InitiateJump(int numberOfJumpsUsed, GameObject particlesToSpawn)
+    public void InitiateJump(int numberOfJumpsUsed, GameObject particlesToSpawn)
     {
         if (!_isJumping)
         {
@@ -470,6 +483,7 @@ public class PlayerMovementV2 : MonoBehaviour
         // _anim.SetTrigger("jump");
         // _anim.ResetTrigger("land");
         _anim.SetInteger("AnimState", 2);
+        SoundFXManager.instance.PlaySoundFXClip(_jumpClip, this.gameObject.transform, _FX, 0.6f, 1);
         _trailRenderer.emitting = true;
 
         Instantiate(particlesToSpawn, _particleSpawnTransform.position, Quaternion.identity);
@@ -913,6 +927,7 @@ public class PlayerMovementV2 : MonoBehaviour
 
         // _anim.SetBool("isDashing", true);
         _anim.SetInteger("AnimState", 0);
+        SoundFXManager.instance.PlaySoundFXClip(_dashClip, this.gameObject.transform, _FX, 0.8f, 1f);
         // _ghostTrail.LeaveGhostTrail(MoveStats.DashTime * 1.75f);
 
         ResetJumpValues();

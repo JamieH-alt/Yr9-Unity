@@ -5,6 +5,9 @@ TagManager:
   serializedVersion: 2
   tags:
   - Ground
+  - Deadly
+  - Collectable
+  - Enemy
   layers:
   - Default
   - TransparentFX
@@ -39,6 +42,9 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: Particles
+    uniqueID: 2140883535
+    locked: 0
   - name: Default
     uniqueID: 0
     locked: 0
