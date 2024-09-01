@@ -21,6 +21,7 @@ public class InputManager : MonoBehaviour
     private InputAction _dashAction;
     private InputAction _testAction;
     private InputAction _optionsAction;
+    private InputAction _resetAction;
 
     [SerializeField] private GameObject settingsUi;
 
@@ -34,19 +35,23 @@ public class InputManager : MonoBehaviour
         _dashAction = PlayerInput.actions["Dash"];
 
         _optionsAction = PlayerInput.actions["Options"];
+        _resetAction = PlayerInput.actions["Reset"];
 
         _testAction = PlayerInput.actions["Test"];
     }
 
     private void Update()
     {
+        if (_resetAction.WasPressedThisFrame()) 
+        {
+            NextLevel.instance.LoadSameScene();
+        }
+        
         if (_optionsAction.WasPressedThisFrame() && settingsUi != null) {
-            if (settingsUi.activeInHierarchy) {
-                settingsUi.SetActive(false);
-                Time.timeScale = 1f;
+            if (settingsUi.activeSelf == false) {
+                OpenSettings.instance.OpenSettingsMenu();
             } else {
-                settingsUi.SetActive(true);
-                Time.timeScale = 0f;
+                OpenSettings.instance.CloseSettingsMenu();
             }
         }
 

@@ -10,6 +10,17 @@ public class NextLevel : MonoBehaviour
     [SerializeField] private GameObject _disableUi;
     [SerializeField] private AudioClip _won;
     [SerializeField] private AudioMixerGroup _FX;
+    
+    public static NextLevel instance;
+    
+    void Awake() 
+    {
+        if (instance == null) 
+        {
+            instance = this;
+        }
+    }
+    
     void OnTriggerEnter2D(Collider2D target) {
         if (target.gameObject.CompareTag("Finish")) {
             Time.timeScale = 0f;

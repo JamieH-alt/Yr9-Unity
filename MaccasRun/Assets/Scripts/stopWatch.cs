@@ -23,6 +23,11 @@ public class stopWatch : MonoBehaviour
         }
     }
 
+    public void continueTimer() 
+    {
+        _time.Start();
+    }
+    
     public void stopTimer()
     {
         _time.Stop();

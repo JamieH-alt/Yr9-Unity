@@ -4979,6 +4979,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _hitParticles: {fileID: 3358642920915419047}
+  _audio: {fileID: 8300000, guid: f940941576ac4684d86addac787bbba3, type: 3}
+  _FX: {fileID: 2268032899164134356, guid: b8673766817f21d4092dfb8d5b9324ce, type: 2}
 --- !u!1 &3553379096976159813
 GameObject:
   m_ObjectHideFlags: 0
@@ -5429,6 +5431,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a0761c268b56ab84bbd58650ace3aeca, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _ui: {fileID: 0}
+  _disableUi: {fileID: 0}
+  _won: {fileID: 8300000, guid: d6e6138fd018c87469568c8efa444f9b, type: 3}
+  _FX: {fileID: 2268032899164134356, guid: b8673766817f21d4092dfb8d5b9324ce, type: 2}
 --- !u!114 &320462143732568791
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10292,6 +10298,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1658f8d4075ffb942bcf313308de90a7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  UI: {fileID: 0}
+  death: {fileID: 8300000, guid: 9e7c5855204acc749b7fa4ef74bcb311, type: 3}
+  _mixer: {fileID: 2268032899164134356, guid: b8673766817f21d4092dfb8d5b9324ce, type: 2}
 --- !u!114 &6088147517857070261
 MonoBehaviour:
   m_ObjectHideFlags: 0
