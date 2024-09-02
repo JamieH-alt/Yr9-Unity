@@ -239,11 +239,11 @@ public class PlayerMovementV2 : MonoBehaviour
 
             if (_isDashFastFalling && _isGrounded)
             {
-                if (!_anim.GetBool("isAirDashFalling"))
-                {
-                    ResetDashValues();
-                    return;                    
-                }
+                // if (!_anim.GetBool("isAirDashFalling"))
+                // {
+                    // ResetDashValues();
+                    // return;                    
+                // }
             }
 
             ResetDashValues();

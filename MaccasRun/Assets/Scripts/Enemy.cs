@@ -9,6 +9,7 @@ public class Enemy : MonoBehaviour
     [SerializeField] private GameObject pointB;
     [SerializeField] private float speed;
     [SerializeField] private bool drawGizmos;
+
     private Rigidbody2D _rb;
     [SerializeField] private Animator _anim;
     private Transform _point;
