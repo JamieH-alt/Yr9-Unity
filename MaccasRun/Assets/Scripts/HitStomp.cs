@@ -21,8 +21,14 @@ public class HitStomp : MonoBehaviour
     void OnTriggerEnter2D(Collider2D other) {
         if (other.CompareTag("Enemy")) {
             Instantiate(_drop, other.transform.position, Quaternion.identity, _collectablesContainer.transform);
-            Destroy(other.transform.parent.gameObject);
+            Destroy(other.transform.parent.parent.gameObject);
             PlayerMovementV2.instance.InitiateJump(-1, _hitParticles);
+            SoundFXManager.instance.PlaySoundFXClip(_audio, this.transform, _FX, 0.5f, 1f);
+        } else if (other.CompareTag("Enemy1"))
+        {
+            Instantiate(_drop, other.transform.position, Quaternion.identity, _collectablesContainer.transform);
+            Destroy(other.transform.parent.parent.gameObject);
+            PlayerMovementV2.instance.InitiateJump(-2, _hitParticles);
             SoundFXManager.instance.PlaySoundFXClip(_audio, this.transform, _FX, 0.5f, 1f);
         }
     }

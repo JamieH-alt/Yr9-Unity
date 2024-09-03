@@ -15,7 +15,7 @@ C:/Users/CRIBG/Development/AssailentDev Github/Yr9-Unity/MaccasRun
 -logFile
 Logs/AssetImportWorker2.log
 -srvPort
-5735
+48573
 Successfully changed project path to: C:/Users/CRIBG/Development/AssailentDev Github/Yr9-Unity/MaccasRun
 C:/Users/CRIBG/Development/AssailentDev Github/Yr9-Unity/MaccasRun
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,12 +49,12 @@ C:/Users/CRIBG/Development/AssailentDev Github/Yr9-Unity/MaccasRun
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [5020] Host "[IP] 192.168.1.28 [Port] 0 [Flags] 2 [Guid] 2296188416 [EditorId] 2296188416 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-FQA34ST) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [50240] Host "[IP] 192.168.1.28 [Port] 0 [Flags] 2 [Guid] 3754208124 [EditorId] 3754208124 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-FQA34ST) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [5020] Host "[IP] 192.168.1.28 [Port] 0 [Flags] 2 [Guid] 2296188416 [EditorId] 2296188416 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-FQA34ST) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [50240] Host "[IP] 192.168.1.28 [Port] 0 [Flags] 2 [Guid] 3754208124 [EditorId] 3754208124 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-FQA34ST) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 15 workers.
-Refreshing native plugins compatible for Editor in 14.62 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 163.34 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.15f1 (b58023a2b463)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.15f1/Editor/Data/Resources/UnitySubsystems
@@ -70,44 +70,44 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.15f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.15f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56636
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56616
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.15f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.006882 seconds.
-- Loaded All Assemblies, in  0.422 seconds
+Registered in 0.007078 seconds.
+- Loaded All Assemblies, in  0.359 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.311 seconds
-Domain Reload Profiling: 732ms
-	BeginReloadAssembly (147ms)
+- Finished resetting the current domain, in  0.283 seconds
+Domain Reload Profiling: 641ms
+	BeginReloadAssembly (111ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (39ms)
-	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (60ms)
-	LoadAllAssembliesAndSetupDomain (165ms)
-		LoadAssemblies (145ms)
+	RebuildCommonClasses (36ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (56ms)
+	LoadAllAssembliesAndSetupDomain (143ms)
+		LoadAssemblies (109ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (162ms)
-			TypeCache.Refresh (161ms)
-				TypeCache.ScanAssembly (139ms)
+		AnalyzeDomain (141ms)
+			TypeCache.Refresh (139ms)
+				TypeCache.ScanAssembly (126ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (311ms)
+	FinalizeReload (284ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (241ms)
+		SetupLoadedEditorAssemblies (221ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (10ms)
-			SetLoadedEditorAssemblies (9ms)
+			InitializePlatformSupportModulesInManaged (9ms)
+			SetLoadedEditorAssemblies (7ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (2ms)
-			ProcessInitializeOnLoadAttributes (164ms)
-			ProcessInitializeOnLoadMethodAttributes (55ms)
+			ProcessInitializeOnLoadAttributes (149ms)
+			ProcessInitializeOnLoadMethodAttributes (54ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -115,55 +115,55 @@ Domain Reload Profiling: 732ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.965 seconds
-Refreshing native plugins compatible for Editor in 5.34 ms, found 4 plugins.
+- Loaded All Assemblies, in  0.909 seconds
+Refreshing native plugins compatible for Editor in 6.50 ms, found 4 plugins.
 Native extension for WindowsStandalone target not found
 Package Manager log level set to [2]
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.778 seconds
-Domain Reload Profiling: 1738ms
-	BeginReloadAssembly (152ms)
+- Finished resetting the current domain, in  0.900 seconds
+Domain Reload Profiling: 1804ms
+	BeginReloadAssembly (187ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (5ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (19ms)
-	RebuildCommonClasses (33ms)
-	RebuildNativeTypeToScriptingClass (12ms)
-	initialDomainReloadingComplete (46ms)
-	LoadAllAssembliesAndSetupDomain (717ms)
-		LoadAssemblies (497ms)
+		CreateAndSetChildDomain (27ms)
+	RebuildCommonClasses (46ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (52ms)
+	LoadAllAssembliesAndSetupDomain (606ms)
+		LoadAssemblies (438ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (311ms)
-			TypeCache.Refresh (258ms)
-				TypeCache.ScanAssembly (234ms)
-			ScanForSourceGeneratedMonoScriptInfo (39ms)
-			ResolveRequiredComponents (12ms)
-	FinalizeReload (779ms)
+		AnalyzeDomain (286ms)
+			TypeCache.Refresh (239ms)
+				TypeCache.ScanAssembly (215ms)
+			ScanForSourceGeneratedMonoScriptInfo (34ms)
+			ResolveRequiredComponents (11ms)
+	FinalizeReload (900ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (599ms)
+		SetupLoadedEditorAssemblies (687ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (6ms)
-			SetLoadedEditorAssemblies (5ms)
+			SetLoadedEditorAssemblies (6ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (87ms)
-			ProcessInitializeOnLoadAttributes (413ms)
-			ProcessInitializeOnLoadMethodAttributes (82ms)
+			BeforeProcessingInitializeOnLoad (97ms)
+			ProcessInitializeOnLoadAttributes (479ms)
+			ProcessInitializeOnLoadMethodAttributes (92ms)
 			AfterProcessingInitializeOnLoad (7ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (6ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
-Refreshing native plugins compatible for Editor in 5.43 ms, found 4 plugins.
+		AwakeInstancesAfterBackupRestoration (8ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 8.16 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6271 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 105 unused Assets / (423.0 KB). Loaded Objects now: 6735.
-Memory consumption went from 236.9 MB to 236.5 MB.
-Total: 4.878500 ms (FindLiveObjects: 0.454700 ms CreateObjectMapping: 0.484200 ms MarkObjects: 3.655100 ms  DeleteObjects: 0.283700 ms)
+Unloading 6272 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 105 unused Assets / (423.6 KB). Loaded Objects now: 6736.
+Memory consumption went from 237.0 MB to 236.6 MB.
+Total: 5.429500 ms (FindLiveObjects: 0.640500 ms CreateObjectMapping: 0.845800 ms MarkObjects: 3.660600 ms  DeleteObjects: 0.280100 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -180,2078 +180,174 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 133948.891597 seconds.
-  path: Assets/Prompts/Keyboard & Mouse/Dark/0_Key_Dark.png
-  artifactKey: Guid(d86db89a6a4d2bd4bbb05588734f3cb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prompts/Keyboard & Mouse/Dark/0_Key_Dark.png using Guid(d86db89a6a4d2bd4bbb05588734f3cb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73821182c8aa100763f30158f5a5e991') in 0.101637 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF Glow.mat
-  artifactKey: Guid(d75b8f41e959450c84ac6e967084d3e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF Glow.mat using Guid(d75b8f41e959450c84ac6e967084d3e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2729ae88fba647dfcd4fb68a6bc6f93b') in 0.203528 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 4
-========================================================================
-Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/Prompts/Keyboard & Mouse/Dark/8_Key_Dark.png
-  artifactKey: Guid(f60b78d5e8795b844b8ed6136a8703b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prompts/Keyboard & Mouse/Dark/8_Key_Dark.png using Guid(f60b78d5e8795b844b8ed6136a8703b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f60d5f96dd038baa04d7d2a4d042c666') in 0.022277 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Prompts/Keyboard & Mouse/Dark/A_Key_Dark.png
-  artifactKey: Guid(013c9f05c7cb98041be47ac1fc9021aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prompts/Keyboard & Mouse/Dark/A_Key_Dark.png using Guid(013c9f05c7cb98041be47ac1fc9021aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a8eb8da321eb1832bab30a1aefb90fc') in 0.018883 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF - Drop Shadow.mat
-  artifactKey: Guid(f2dcf029949142e28b974630369c8b4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF - Drop Shadow.mat using Guid(f2dcf029949142e28b974630369c8b4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6da48ed6301c1dcbd8eeb9ba33c3ecab') in 0.009988 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Prompts/Others/Xbox 360/360_Dpad_Left.png
-  artifactKey: Guid(2d85d754f6be3f74da7fee6f478ca943) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prompts/Others/Xbox 360/360_Dpad_Left.png using Guid(2d85d754f6be3f74da7fee6f478ca943) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2c6aecb07f604a2af9dfda849395e75') in 0.021706 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Prompts/Keyboard & Mouse/Dark/11_Key_Dark.png
-  artifactKey: Guid(8ce762ec2acd30743968ebce806cd7f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prompts/Keyboard & Mouse/Dark/11_Key_Dark.png using Guid(8ce762ec2acd30743968ebce806cd7f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fb1d20a3a221ccf6f0f32c4b57e5e32') in 0.021988 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Prompts/Keyboard & Mouse/Dark/12_Key_Dark.png
-  artifactKey: Guid(4554ff73aa91f1b459e1b27609b7b686) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prompts/Keyboard & Mouse/Dark/12_Key_Dark.png using Guid(4554ff73aa91f1b459e1b27609b7b686) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67d21ee02b7ec1ac749198f2d7d1b75a') in 0.024221 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 1.155575 seconds.
-  path: Assets/Prompts/Others/Xbox 360/360_A.png
-  artifactKey: Guid(5de76a16c4c0bd147ae418367fcfa591) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prompts/Others/Xbox 360/360_A.png using Guid(5de76a16c4c0bd147ae418367fcfa591) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06ef2ee2b2da235d7f466b7f58b81f1b') in 0.019119 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 263.219194 seconds.
-  path: Assets/UI/SuperMario256 SDF.asset
-  artifactKey: Guid(d9f8bad36f299ec4798ff181a4b0a266) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UI/SuperMario256 SDF.asset using Guid(d9f8bad36f299ec4798ff181a4b0a266) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4d25a233a7aa56f01b5debebe358387') in 0.049597 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 7
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.518 seconds
-Refreshing native plugins compatible for Editor in 5.53 ms, found 4 plugins.
-Native extension for WindowsStandalone target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.527 seconds
-Domain Reload Profiling: 2041ms
-	BeginReloadAssembly (179ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (16ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (46ms)
-	RebuildCommonClasses (30ms)
-	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (30ms)
-	LoadAllAssembliesAndSetupDomain (264ms)
-		LoadAssemblies (325ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (21ms)
-			TypeCache.Refresh (7ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (13ms)
-	FinalizeReload (1528ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (542ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (6ms)
-			SetLoadedEditorAssemblies (5ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (88ms)
-			ProcessInitializeOnLoadAttributes (366ms)
-			ProcessInitializeOnLoadMethodAttributes (70ms)
-			AfterProcessingInitializeOnLoad (7ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (16ms)
-Refreshing native plugins compatible for Editor in 5.60 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6104 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 50 unused Assets / (392.3 KB). Loaded Objects now: 6839.
-Memory consumption went from 213.7 MB to 213.4 MB.
-Total: 4.183900 ms (FindLiveObjects: 0.485500 ms CreateObjectMapping: 0.508700 ms MarkObjects: 3.044400 ms  DeleteObjects: 0.144400 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 4d1d7186bcbbfe361de5f0ad951e585c -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.498 seconds
-Refreshing native plugins compatible for Editor in 5.58 ms, found 4 plugins.
-Native extension for WindowsStandalone target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.382 seconds
-Domain Reload Profiling: 1875ms
-	BeginReloadAssembly (167ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (10ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (43ms)
-	RebuildCommonClasses (29ms)
-	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (29ms)
-	LoadAllAssembliesAndSetupDomain (257ms)
-		LoadAssemblies (317ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (21ms)
-			TypeCache.Refresh (7ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (13ms)
-	FinalizeReload (1382ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (536ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (6ms)
-			SetLoadedEditorAssemblies (5ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (91ms)
-			ProcessInitializeOnLoadAttributes (360ms)
-			ProcessInitializeOnLoadMethodAttributes (67ms)
-			AfterProcessingInitializeOnLoad (7ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (15ms)
-Refreshing native plugins compatible for Editor in 5.65 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6104 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 50 unused Assets / (392.5 KB). Loaded Objects now: 6856.
-Memory consumption went from 215.6 MB to 215.2 MB.
-Total: 3.828400 ms (FindLiveObjects: 0.522700 ms CreateObjectMapping: 0.513800 ms MarkObjects: 2.611300 ms  DeleteObjects: 0.179700 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 4d1d7186bcbbfe361de5f0ad951e585c -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 286.201987 seconds.
-  path: Assets/Prompts/Keyboard & Mouse/Dark
-  artifactKey: Guid(dedfc2ddc97962141a6bac26936326ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prompts/Keyboard & Mouse/Dark using Guid(dedfc2ddc97962141a6bac26936326ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f5f8dc32b029231c55c05ca134effba') in 0.003270 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.039626 seconds.
-  path: Assets/Prompts/Keyboard & Mouse/Dark/Bracket_Left_Key_Dark.png
-  artifactKey: Guid(ee2c527fbb9439442ad561ca193587c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prompts/Keyboard & Mouse/Dark/Bracket_Left_Key_Dark.png using Guid(ee2c527fbb9439442ad561ca193587c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '599ae1001d72fcac22df813719407bc9') in 0.078826 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Prompts/Keyboard & Mouse/Dark/I_Key_Dark.png
-  artifactKey: Guid(44f82cd259ac27c4f826e86033759189) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prompts/Keyboard & Mouse/Dark/I_Key_Dark.png using Guid(44f82cd259ac27c4f826e86033759189) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4cffdc1d88317a7b727dbd29fe20b27a') in 0.023144 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000045 seconds.
-  path: Assets/Prompts/Keyboard & Mouse/Dark/Minus_Key_Dark.png
-  artifactKey: Guid(99ad86d24a85cfc478579703cce4649e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prompts/Keyboard & Mouse/Dark/Minus_Key_Dark.png using Guid(99ad86d24a85cfc478579703cce4649e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd9b13b337ca36f71007d67a2506b761') in 0.021951 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Prompts/Keyboard & Mouse/Dark/F8_Key_Dark.png
-  artifactKey: Guid(008f88a6c0a176843800df717f702bc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prompts/Keyboard & Mouse/Dark/F8_Key_Dark.png using Guid(008f88a6c0a176843800df717f702bc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20acf4295a4d4e9cded214124e9c2941') in 0.026776 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Prompts/Keyboard & Mouse/Dark/Space_Key_Dark.png
-  artifactKey: Guid(9e2013e6352063341a16e3593147be52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prompts/Keyboard & Mouse/Dark/Space_Key_Dark.png using Guid(9e2013e6352063341a16e3593147be52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '170fef78583fa14c2e5beaf11ba12ade') in 0.030135 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000654 seconds.
-  path: Assets/Prompts/Keyboard & Mouse/Dark/F12_Key_Dark.png
-  artifactKey: Guid(82d8cd389e6b4d6429c9868981b2ce18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prompts/Keyboard & Mouse/Dark/F12_Key_Dark.png using Guid(82d8cd389e6b4d6429c9868981b2ce18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63bed88eb1f3c6323ed869e56936f61a') in 0.028571 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000047 seconds.
-  path: Assets/Prompts/Keyboard & Mouse/Dark/End_Key_Dark.png
-  artifactKey: Guid(6855e9f64f581d54c8c767d591ffea10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prompts/Keyboard & Mouse/Dark/End_Key_Dark.png using Guid(6855e9f64f581d54c8c767d591ffea10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '003953bdc73699648b96279c215ae268') in 0.024122 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/Prompts/Keyboard & Mouse/Dark/Tilda_Key_Dark.png
-  artifactKey: Guid(f7792591ff5eb9d40bd2902921bfd493) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prompts/Keyboard & Mouse/Dark/Tilda_Key_Dark.png using Guid(f7792591ff5eb9d40bd2902921bfd493) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2101eb08eb4e918552f2686c637afe7') in 0.026095 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Prompts/Keyboard & Mouse/Dark/Enter_Tall_Key_Dark.png
-  artifactKey: Guid(fef26777e028f2b40a5b82e3567ba49f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prompts/Keyboard & Mouse/Dark/Enter_Tall_Key_Dark.png using Guid(fef26777e028f2b40a5b82e3567ba49f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d54f5ff749ceccc9de085137358b2c2') in 0.028208 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/Prompts/Keyboard & Mouse/Dark/E_Key_Dark.png
-  artifactKey: Guid(b81f6bce484b7734885486fa559f2a9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prompts/Keyboard & Mouse/Dark/E_Key_Dark.png using Guid(b81f6bce484b7734885486fa559f2a9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2941ab1f8b5708ec7f4be38dab709524') in 0.025512 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Prompts/Keyboard & Mouse/Dark/Page_Down_Key_Dark.png
-  artifactKey: Guid(5f8526020d5c5d14696771c234e1d8b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prompts/Keyboard & Mouse/Dark/Page_Down_Key_Dark.png using Guid(5f8526020d5c5d14696771c234e1d8b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bd093d2c5604707cc45947783aee7e5') in 0.027398 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Prompts/Keyboard & Mouse/Dark/Mouse_Right_Key_Dark.png
-  artifactKey: Guid(53ac3946206a09443a6f9dc826e08c3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prompts/Keyboard & Mouse/Dark/Mouse_Right_Key_Dark.png using Guid(53ac3946206a09443a6f9dc826e08c3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be713fba0705191e90b05687f06006ca') in 0.026706 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Prompts/Keyboard & Mouse/Dark/Mouse_Middle_Key_Dark.png
-  artifactKey: Guid(3dd1b9648308bf64082d00468300ded5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prompts/Keyboard & Mouse/Dark/Mouse_Middle_Key_Dark.png using Guid(3dd1b9648308bf64082d00468300ded5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef6cdd6f197d9cf24694d58454289132') in 0.029548 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Prompts/Keyboard & Mouse/Dark/T_Key_Dark.png
-  artifactKey: Guid(8adca2a853fa6c54a96df0978ecc6476) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prompts/Keyboard & Mouse/Dark/T_Key_Dark.png using Guid(8adca2a853fa6c54a96df0978ecc6476) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88d752a3f4419070c4d0fb82dd8c5f8d') in 0.025396 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Prompts/Keyboard & Mouse/Dark/O_Key_Dark.png
-  artifactKey: Guid(552a44ceeb8fc1a40a480383e0e2fd3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prompts/Keyboard & Mouse/Dark/O_Key_Dark.png using Guid(552a44ceeb8fc1a40a480383e0e2fd3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d3de425786939aa52f2125b2b9d70d3') in 0.025708 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/Prompts/Keyboard & Mouse/Dark/M_Key_Dark.png
-  artifactKey: Guid(9824c62959c777a4b85ce0351930473c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prompts/Keyboard & Mouse/Dark/M_Key_Dark.png using Guid(9824c62959c777a4b85ce0351930473c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b5e4a2dff437f3d35884791568d9153') in 0.023353 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/Prompts/Keyboard & Mouse/Dark/U_Key_Dark.png
-  artifactKey: Guid(d60bb23c26dea23478886b3b4f7ce4f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prompts/Keyboard & Mouse/Dark/U_Key_Dark.png using Guid(d60bb23c26dea23478886b3b4f7ce4f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c599ac0b7c437831c20130c33098cb6') in 0.025251 seconds
+  Time since last request: 163467.764558 seconds.
+  path: Assets/Prompts/Others/Xbox One/XboxOne_Windows.png
+  artifactKey: Guid(29030c39f517c464eb36e827a0c4c2ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prompts/Others/Xbox One/XboxOne_Windows.png using Guid(29030c39f517c464eb36e827a0c4c2ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c62ff6cc9640b843734932be2d9ccd4e') in 0.117845 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
   Time since last request: 0.000027 seconds.
-  path: Assets/Prompts/Keyboard & Mouse/Dark/Question_Key_Dark.png
-  artifactKey: Guid(3f5db89a48125144ca356a105170bed7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prompts/Keyboard & Mouse/Dark/Question_Key_Dark.png using Guid(3f5db89a48125144ca356a105170bed7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c36018503a5c4b12cc621bf68da6ae3b') in 0.020361 seconds
+  path: Assets/Prompts/Others/WiiU/WiiU_TV.png
+  artifactKey: Guid(81968a259dd454d4caef0588ee07fa86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prompts/Others/WiiU/WiiU_TV.png using Guid(81968a259dd454d4caef0588ee07fa86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8044f548c894e0660020a2e1b0469fe6') in 0.028441 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Prompts/Keyboard & Mouse/Dark/Enter_Key_Dark.png
-  artifactKey: Guid(fa2540ca7d7e49b428d197807976f55c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prompts/Keyboard & Mouse/Dark/Enter_Key_Dark.png using Guid(fa2540ca7d7e49b428d197807976f55c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c70de6fc6ccf8d7377a433222ad3acdf') in 0.021794 seconds
+  Time since last request: 0.017409 seconds.
+  path: Assets/Prompts/Others/VR/Oculus/Remote_Back.png
+  artifactKey: Guid(f03a1c92a0c25f542b913cb60978fde6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prompts/Others/VR/Oculus/Remote_Back.png using Guid(f03a1c92a0c25f542b913cb60978fde6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '296642e0c8e41bba420892dc09094c5d') in 0.024542 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Prompts/Keyboard & Mouse/Dark/F3_Key_Dark.png
-  artifactKey: Guid(ad4fec0b2d9725a46b993819116614a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prompts/Keyboard & Mouse/Dark/F3_Key_Dark.png using Guid(ad4fec0b2d9725a46b993819116614a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f61812248a1f9e0982b7cb2fb42fc399') in 0.021458 seconds
+  Time since last request: 0.000050 seconds.
+  path: Assets/Prompts/Others/VR/Oculus/Remote_Circle_Outter.png
+  artifactKey: Guid(e4ca5bf819d8d9a4f95fee53e8804bfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prompts/Others/VR/Oculus/Remote_Circle_Outter.png using Guid(e4ca5bf819d8d9a4f95fee53e8804bfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc1a7d2d6b24670335818ce801b87ec4') in 0.026503 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Prompts/Keyboard & Mouse/Dark/Enter_Alt_Key_Dark.png
-  artifactKey: Guid(4d636d4fecc608c4b95ee7cbf49b6ea3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prompts/Keyboard & Mouse/Dark/Enter_Alt_Key_Dark.png using Guid(4d636d4fecc608c4b95ee7cbf49b6ea3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a574306e02fb928dcd8f223cfcfd238b') in 0.020263 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Prompts/Keyboard & Mouse/Dark/Del_Key_Dark.png
-  artifactKey: Guid(d97840be751fa08479a1cae0d1077d10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prompts/Keyboard & Mouse/Dark/Del_Key_Dark.png using Guid(d97840be751fa08479a1cae0d1077d10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04ee7e361c601ac499f6d08f66f9db40') in 0.020914 seconds
+  Time since last request: 0.000022 seconds.
+  path: Assets/Prompts/Others/VR/Oculus/Remote_Circle_Left.png
+  artifactKey: Guid(23cc2e19726caa1469edcedb82af693f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prompts/Others/VR/Oculus/Remote_Circle_Left.png using Guid(23cc2e19726caa1469edcedb82af693f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61ac6717444bf3692936f517ab2a0956') in 0.022899 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
   Time since last request: 0.000015 seconds.
-  path: Assets/Prompts/Keyboard & Mouse/Dark/Home_Key_Dark.png
-  artifactKey: Guid(d505033fef021fd41ace17a7c15f63c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prompts/Keyboard & Mouse/Dark/Home_Key_Dark.png using Guid(d505033fef021fd41ace17a7c15f63c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b657e626fda9bf7650af3d6ecfcedd2') in 0.025820 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/Prompts/Keyboard & Mouse/Dark/R_Key_Dark.png
-  artifactKey: Guid(fde3772ed63efca4ebf5ca0f44ad13a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prompts/Keyboard & Mouse/Dark/R_Key_Dark.png using Guid(fde3772ed63efca4ebf5ca0f44ad13a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b43590e6fd41cb4988b19a1e9556bb86') in 0.028098 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/Prompts/Keyboard & Mouse/Dark/C_Key_Dark.png
-  artifactKey: Guid(2b4f3ff3b55db2546932d6007eb902c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prompts/Keyboard & Mouse/Dark/C_Key_Dark.png using Guid(2b4f3ff3b55db2546932d6007eb902c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95f6c58d1c253dcf4706f2a8c3fbb8ae') in 0.025741 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Prompts/Keyboard & Mouse/Dark/Semicolon_Key_Dark.png
-  artifactKey: Guid(fef8efac7b4b3a147aadd9dcf2b7f0fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prompts/Keyboard & Mouse/Dark/Semicolon_Key_Dark.png using Guid(fef8efac7b4b3a147aadd9dcf2b7f0fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31dd62444a367346a7dd90be387f8e5a') in 0.032666 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000038 seconds.
-  path: Assets/Prompts/Keyboard & Mouse/Dark/F5_Key_Dark.png
-  artifactKey: Guid(cf580ccf5b6246a4a947d7da784878c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prompts/Keyboard & Mouse/Dark/F5_Key_Dark.png using Guid(cf580ccf5b6246a4a947d7da784878c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2030315329372de4c41e4da00c768db') in 0.026989 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.005263 seconds.
-  path: Assets/Prompts/Keyboard & Mouse/Dark/Plus_Tall_Key_Dark.png
-  artifactKey: Guid(74ebdee60ce853844be85ea38f0e936d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prompts/Keyboard & Mouse/Dark/Plus_Tall_Key_Dark.png using Guid(74ebdee60ce853844be85ea38f0e936d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7358f6ad23194743a4c39119e2d94f11') in 0.028411 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Prompts/Keyboard & Mouse/Dark/Esc_Key_Dark.png
-  artifactKey: Guid(abe30186dfb740649baa78728d0e6142) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prompts/Keyboard & Mouse/Dark/Esc_Key_Dark.png using Guid(abe30186dfb740649baa78728d0e6142) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4326a8c4abf750e8826719e63dd9e4de') in 0.027198 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Prompts/Keyboard & Mouse/Dark/Q_Key_Dark.png
-  artifactKey: Guid(8a883eeaebeaeff4e810c57c694f2483) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prompts/Keyboard & Mouse/Dark/Q_Key_Dark.png using Guid(8a883eeaebeaeff4e810c57c694f2483) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38c23641e245647cc46f08fd837870e7') in 0.025210 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000043 seconds.
-  path: Assets/Prompts/Keyboard & Mouse/Dark/Slash_Key_Dark.png
-  artifactKey: Guid(cdb90d33e81b3544bbb72c02ed750ac2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prompts/Keyboard & Mouse/Dark/Slash_Key_Dark.png using Guid(cdb90d33e81b3544bbb72c02ed750ac2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf8402fbfae78eea78bcb5605e861cc7') in 0.028297 seconds
+  path: Assets/Prompts/Others/PS3/PS3_Dpad_Up.png
+  artifactKey: Guid(81f64b05e047e5e4d9980f3e600db872) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prompts/Others/PS3/PS3_Dpad_Up.png using Guid(81f64b05e047e5e4d9980f3e600db872) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '886441eb93c85c7b8930ba03db305a72') in 0.022644 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
   Time since last request: 0.000031 seconds.
-  path: Assets/Prompts/Keyboard & Mouse/Dark/F6_Key_Dark.png
-  artifactKey: Guid(4c24e5d084446114a8afcf8e9df24185) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prompts/Keyboard & Mouse/Dark/F6_Key_Dark.png using Guid(4c24e5d084446114a8afcf8e9df24185) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cec7fdf53ed78b298da2d003a3239438') in 0.030018 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Prompts/Keyboard & Mouse/Dark/H_Key_Dark.png
-  artifactKey: Guid(d793c3f63b2dfd44ca38d912b41cd11e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prompts/Keyboard & Mouse/Dark/H_Key_Dark.png using Guid(d793c3f63b2dfd44ca38d912b41cd11e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'adcc6ebcabe31fae24b727817b9c0024') in 0.029706 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Prompts/Keyboard & Mouse/Dark/Mouse_Simple_Key_Dark.png
-  artifactKey: Guid(eafd2da520211604a84f0b53b06f826a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prompts/Keyboard & Mouse/Dark/Mouse_Simple_Key_Dark.png using Guid(eafd2da520211604a84f0b53b06f826a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '666479abe746b606819dad2a0c669404') in 0.033713 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/Prompts/Keyboard & Mouse/Dark/P_Key_Dark.png
-  artifactKey: Guid(44028c1a14bca9c49a6060d937b62ddf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prompts/Keyboard & Mouse/Dark/P_Key_Dark.png using Guid(44028c1a14bca9c49a6060d937b62ddf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8729a1db24dedafe5f4b00a8ccde892') in 0.029198 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 19.555856 seconds.
-  path: Assets/Prompts/Keyboard & Mouse/Light/Ctrl_Key_Light.png
-  artifactKey: Guid(e6d7ce9d74c08db438600dc9a8eb41e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prompts/Keyboard & Mouse/Light/Ctrl_Key_Light.png using Guid(e6d7ce9d74c08db438600dc9a8eb41e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6c6ea373cc0558bb600d935799e0dd3') in 0.016676 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.022918 seconds.
-  path: Assets/Prompts/Keyboard & Mouse/Light/0_Key_Light.png
-  artifactKey: Guid(59de10200fd94fd44b7e4cb3b9152863) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prompts/Keyboard & Mouse/Light/0_Key_Light.png using Guid(59de10200fd94fd44b7e4cb3b9152863) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58fc143b7473dc5618772547eb652217') in 0.018848 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Prompts/Keyboard & Mouse/Light/4_Key_Light.png
-  artifactKey: Guid(5bf9516d041696941a569a183fd00f9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prompts/Keyboard & Mouse/Light/4_Key_Light.png using Guid(5bf9516d041696941a569a183fd00f9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef6767e76eaa33e145ad4c630330e4bf') in 0.017835 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Prompts/Keyboard & Mouse/Light/Del_Key_Light.png
-  artifactKey: Guid(c7439b3ce347a6840b7e6549e051f079) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prompts/Keyboard & Mouse/Light/Del_Key_Light.png using Guid(c7439b3ce347a6840b7e6549e051f079) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '688e25cc31e74aa786291eaff7057788') in 0.019437 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Prompts/Keyboard & Mouse/Light/Arrow_Up_Key_Light.png
-  artifactKey: Guid(5750e2ea575637a438562dcb0010455c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prompts/Keyboard & Mouse/Light/Arrow_Up_Key_Light.png using Guid(5750e2ea575637a438562dcb0010455c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed37b82e570563e11afc33b8df15341e') in 0.017958 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Prompts/Keyboard & Mouse/Light/Semicolon_Key_Light.png
-  artifactKey: Guid(2d7e98d006024604ba6b340e988b1c8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prompts/Keyboard & Mouse/Light/Semicolon_Key_Light.png using Guid(2d7e98d006024604ba6b340e988b1c8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0df19dcc8a5b3b2974ca754517d2526') in 0.018924 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Prompts/Keyboard & Mouse/Light/K_Key_Light.png
-  artifactKey: Guid(fed460b704430124386d38ab145d8100) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prompts/Keyboard & Mouse/Light/K_Key_Light.png using Guid(fed460b704430124386d38ab145d8100) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35d87ecf6890574d68c1aef4d9604bd0') in 0.018329 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Prompts/Keyboard & Mouse/Light/Command_Key_Light.png
-  artifactKey: Guid(fad55b5a64ad6cd47ae4a0508630fd94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prompts/Keyboard & Mouse/Light/Command_Key_Light.png using Guid(fad55b5a64ad6cd47ae4a0508630fd94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '698a663618136e9f213378139cb59fe6') in 0.019919 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Prompts/Keyboard & Mouse/Light/Enter_Alt_Key_Light.png
-  artifactKey: Guid(d9a0063b10a67ee468270784db1ddd48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prompts/Keyboard & Mouse/Light/Enter_Alt_Key_Light.png using Guid(d9a0063b10a67ee468270784db1ddd48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a843169c865b892bec7dc043a64cbd50') in 0.018024 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Prompts/Keyboard & Mouse/Light/Question_Key_Light.png
-  artifactKey: Guid(d07f70c529b4c414aac39eee3c416625) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prompts/Keyboard & Mouse/Light/Question_Key_Light.png using Guid(d07f70c529b4c414aac39eee3c416625) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb7a3ae0eb52ea326d8717754e8cc2c4') in 0.020530 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Prompts/Keyboard & Mouse/Light/Arrow_Right_Key_Light.png
-  artifactKey: Guid(8a4a39ab40b04604e8881b01109ad889) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prompts/Keyboard & Mouse/Light/Arrow_Right_Key_Light.png using Guid(8a4a39ab40b04604e8881b01109ad889) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5880e9d73e32f33c4e4607f3890c734') in 0.017876 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Prompts/Keyboard & Mouse/Light/O_Key_Light.png
-  artifactKey: Guid(326558c618844a848a4a5af9f86b68c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prompts/Keyboard & Mouse/Light/O_Key_Light.png using Guid(326558c618844a848a4a5af9f86b68c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1431fd6929b805ec2e8604eb70783cd') in 0.016243 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Prompts/Keyboard & Mouse/Light/Mouse_Simple_Key_Light.png
-  artifactKey: Guid(d67e7dbb5236fd34194a838d674ba829) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prompts/Keyboard & Mouse/Light/Mouse_Simple_Key_Light.png using Guid(d67e7dbb5236fd34194a838d674ba829) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1e12ba7ff0332a2b5b37e62076468c1') in 0.018991 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/Prompts/Keyboard & Mouse/Light/M_Key_Light.png
-  artifactKey: Guid(991a0e7cde0d9d14d9e91781e5741571) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prompts/Keyboard & Mouse/Light/M_Key_Light.png using Guid(991a0e7cde0d9d14d9e91781e5741571) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e2022c202037155c2534d6c309f4d07') in 0.020005 seconds
+  path: Assets/Prompts/Others/PS3/PS3_L1.png
+  artifactKey: Guid(0850ef1dfc8c9f6448b7bc2a2649af95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prompts/Others/PS3/PS3_L1.png using Guid(0850ef1dfc8c9f6448b7bc2a2649af95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '040ca541fae9d9f7df9fbc043c25431e') in 0.021148 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
   Time since last request: 0.000024 seconds.
-  path: Assets/Prompts/Keyboard & Mouse/Light/E_Key_Light.png
-  artifactKey: Guid(e22a50fb723f5c44581b8098cc45191e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prompts/Keyboard & Mouse/Light/E_Key_Light.png using Guid(e22a50fb723f5c44581b8098cc45191e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fc725f06a3e6db770f9217fb5e5318b') in 0.017723 seconds
+  path: Assets/Prompts/Others/Arrows/Directional_Arrow_Cross.png
+  artifactKey: Guid(98113a27ad0345a4a82a90d3f07cb4f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prompts/Others/Arrows/Directional_Arrow_Cross.png using Guid(98113a27ad0345a4a82a90d3f07cb4f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57f1f03068720924f143e405e71c0759') in 0.027378 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
   Time since last request: 0.000023 seconds.
-  path: Assets/Prompts/Keyboard & Mouse/Light/Mouse_Right_Key_Light.png
-  artifactKey: Guid(9336f14fc369b4c439eb004de06dccc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prompts/Keyboard & Mouse/Light/Mouse_Right_Key_Light.png using Guid(9336f14fc369b4c439eb004de06dccc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9b9e532c415005808deaa5bd8485943') in 0.020528 seconds
+  path: Assets/Prompts/Others/Arrows/Directional_Arrow_Quarter_Circle.png
+  artifactKey: Guid(b7249cf3cc4cc57408c75fada9ffbefa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prompts/Others/Arrows/Directional_Arrow_Quarter_Circle.png using Guid(b7249cf3cc4cc57408c75fada9ffbefa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5362c62b2e9645569ac2de4921258f9') in 0.029594 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Prompts/Keyboard & Mouse/Light/N_Key_Light.png
-  artifactKey: Guid(e2b1ac25c7062a44eb7a34dd135f7967) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prompts/Keyboard & Mouse/Light/N_Key_Light.png using Guid(e2b1ac25c7062a44eb7a34dd135f7967) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be1fca3c97b7fd53ab3327d20b793107') in 0.018791 seconds
+  Time since last request: 0.000039 seconds.
+  path: Assets/Prompts/Others/Arrows/Directional_Arrow_Horizontal.png
+  artifactKey: Guid(ea861d50884869e46bece56cbb0834e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prompts/Others/Arrows/Directional_Arrow_Horizontal.png using Guid(ea861d50884869e46bece56cbb0834e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8998151e37a192789daa4d23f9244ac9') in 0.024862 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Prompts/Keyboard & Mouse/Light/Bracket_Left_Key_Light.png
-  artifactKey: Guid(9672676afafd5784d8129e2ca4488290) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prompts/Keyboard & Mouse/Light/Bracket_Left_Key_Light.png using Guid(9672676afafd5784d8129e2ca4488290) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8eef116d5d7340e95d31875935076863') in 0.020059 seconds
+  Time since last request: 0.000062 seconds.
+  path: Assets/Prompts/Others/Arrows/Directional_Arrow_Half_Circle.png
+  artifactKey: Guid(f7d83d48b170b434ab463556ba2e3276) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prompts/Others/Arrows/Directional_Arrow_Half_Circle.png using Guid(f7d83d48b170b434ab463556ba2e3276) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a8cc023acce0e225916b0c6c02e1c75') in 0.031255 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Prompts/Keyboard & Mouse/Light/Enter_Key_Light.png
-  artifactKey: Guid(11e759639cb14bd428f765d3a1df5830) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prompts/Keyboard & Mouse/Light/Enter_Key_Light.png using Guid(11e759639cb14bd428f765d3a1df5830) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f872f16275e7e7d3b9d9850aaacee3c') in 0.019564 seconds
+  Time since last request: 1.848944 seconds.
+  path: Assets/Prompts/Others/Xbox 360/360_B.png
+  artifactKey: Guid(5432dc13571bf704cad80370f4607d8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prompts/Others/Xbox 360/360_B.png using Guid(5432dc13571bf704cad80370f4607d8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '771057c5a4b859379df96c77f1072fdd') in 0.020388 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Prompts/Keyboard & Mouse/Light/9_Key_Light.png
-  artifactKey: Guid(12a8a9ed66fc40d47ad62d386301666b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prompts/Keyboard & Mouse/Light/9_Key_Light.png using Guid(12a8a9ed66fc40d47ad62d386301666b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88d0503ca8b3e275b5f62cf2bb804a40') in 0.018011 seconds
+  Time since last request: 0.040348 seconds.
+  path: Assets/Prompts/Others/Xbox 360/360_LB.png
+  artifactKey: Guid(4fdfc69e7bfa1fc4a982994fa329bcfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prompts/Others/Xbox 360/360_LB.png using Guid(4fdfc69e7bfa1fc4a982994fa329bcfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbcfc646013276b93ebe7651f475e642') in 0.023976 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Prompts/Keyboard & Mouse/Light/Page_Up_Key_Light.png
-  artifactKey: Guid(f963a43e45d5baa4b8b4bc1e29ddd90a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prompts/Keyboard & Mouse/Light/Page_Up_Key_Light.png using Guid(f963a43e45d5baa4b8b4bc1e29ddd90a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f32fcaff2cac76a177dc02d9c5b50360') in 0.018829 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Prompts/Keyboard & Mouse/Light/Page_Down_Key_Light.png
-  artifactKey: Guid(0ed92bec4a376b7418391d71faa2a970) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prompts/Keyboard & Mouse/Light/Page_Down_Key_Light.png using Guid(0ed92bec4a376b7418391d71faa2a970) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef70765f6d9d4a4c8d27ee4b112ee94f') in 0.019235 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Prompts/Keyboard & Mouse/Light/F4_Key_Light.png
-  artifactKey: Guid(d6d7124c150dc454cb482c3856dae9fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prompts/Keyboard & Mouse/Light/F4_Key_Light.png using Guid(d6d7124c150dc454cb482c3856dae9fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f58111c8288a23c79a29a5e86407a4f') in 0.019418 seconds
+  Time since last request: 0.002283 seconds.
+  path: Assets/Prompts/Others/Xbox 360/360_LT.png
+  artifactKey: Guid(8219cf2c6a547514c946755bf11b7861) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prompts/Others/Xbox 360/360_LT.png using Guid(8219cf2c6a547514c946755bf11b7861) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7289ce2b8274256ba105410fdd5968a') in 0.032538 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
   Time since last request: 0.000021 seconds.
-  path: Assets/Prompts/Keyboard & Mouse/Light/R_Key_Light.png
-  artifactKey: Guid(7efd659aceca0a8489bf69535b95b825) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prompts/Keyboard & Mouse/Light/R_Key_Light.png using Guid(7efd659aceca0a8489bf69535b95b825) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f3ad7db7147f4c60621025e4e54e553') in 0.021898 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/Prompts/Keyboard & Mouse/Light/Print_Screen_Key_Light.png
-  artifactKey: Guid(7496edd0362379441bad226547ec3f0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prompts/Keyboard & Mouse/Light/Print_Screen_Key_Light.png using Guid(7496edd0362379441bad226547ec3f0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0fceb89b979c54ab221779422a56124') in 0.018371 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Prompts/Keyboard & Mouse/Light/F2_Key_Light.png
-  artifactKey: Guid(e75c4b4eff22d014fa40edf08d779a63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prompts/Keyboard & Mouse/Light/F2_Key_Light.png using Guid(e75c4b4eff22d014fa40edf08d779a63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf991ee045519afe8934cc7b66a2f02d') in 0.020791 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Prompts/Keyboard & Mouse/Light/T_Key_Light.png
-  artifactKey: Guid(617dd0ab4580178428fa44b29979b147) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prompts/Keyboard & Mouse/Light/T_Key_Light.png using Guid(617dd0ab4580178428fa44b29979b147) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5522f56678edc355cf10fae7b6b1af9e') in 0.021476 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Prompts/Keyboard & Mouse/Light/Plus_Key_Light.png
-  artifactKey: Guid(66a49133b5691cb4796f5a40b2d90536) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prompts/Keyboard & Mouse/Light/Plus_Key_Light.png using Guid(66a49133b5691cb4796f5a40b2d90536) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdfcbd97d9667715b6fbdc3eedac253e') in 0.021463 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Prompts/Keyboard & Mouse/Light/Num_Lock_Key_Light.png
-  artifactKey: Guid(9ce1a179530a6b745a32dc352093b8da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prompts/Keyboard & Mouse/Light/Num_Lock_Key_Light.png using Guid(9ce1a179530a6b745a32dc352093b8da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '885afb937065f0a603c99562266677af') in 0.022262 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Prompts/Keyboard & Mouse/Light/12_Key_Light.png
-  artifactKey: Guid(39f8787788fdb5b4d835c63d4259494b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prompts/Keyboard & Mouse/Light/12_Key_Light.png using Guid(39f8787788fdb5b4d835c63d4259494b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de317959fa7f0b933100ba90d30ed5d7') in 0.015478 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Prompts/Keyboard & Mouse/Light/I_Key_Light.png
-  artifactKey: Guid(8b4d5de7ea4d2be479f9974fcf6e9031) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prompts/Keyboard & Mouse/Light/I_Key_Light.png using Guid(8b4d5de7ea4d2be479f9974fcf6e9031) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fd9eb502d766d7f2053f92c86f268bc') in 0.017454 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Prompts/Keyboard & Mouse/Light/Arrow_Left_Key_Light.png
-  artifactKey: Guid(70864d94d3cec5849b3004767e3db3ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prompts/Keyboard & Mouse/Light/Arrow_Left_Key_Light.png using Guid(70864d94d3cec5849b3004767e3db3ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5de67e00de1bcb06b5f3e57352efc86') in 0.017380 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 8.993788 seconds.
-  path: Assets/Prompts/Keyboard & Mouse/Light/Ctrl_Key_Light.png
-  artifactKey: Guid(e6d7ce9d74c08db438600dc9a8eb41e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prompts/Keyboard & Mouse/Light/Ctrl_Key_Light.png using Guid(e6d7ce9d74c08db438600dc9a8eb41e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3a2615973ec29d6a9f49b750a1374aa') in 0.012209 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.008988 seconds.
-  path: Assets/Prompts/Keyboard & Mouse/Light/0_Key_Light.png
-  artifactKey: Guid(59de10200fd94fd44b7e4cb3b9152863) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prompts/Keyboard & Mouse/Light/0_Key_Light.png using Guid(59de10200fd94fd44b7e4cb3b9152863) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e12fe69a234a86fb06f8a8fe38d6578') in 0.015554 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Prompts/Keyboard & Mouse/Light/F7_Key_Light.png
-  artifactKey: Guid(7c585ca5aa0136f4fb661a80b1103b74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prompts/Keyboard & Mouse/Light/F7_Key_Light.png using Guid(7c585ca5aa0136f4fb661a80b1103b74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cde644d1e988994532634e20f21dab84') in 0.014188 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Prompts/Keyboard & Mouse/Light/Del_Key_Light.png
-  artifactKey: Guid(c7439b3ce347a6840b7e6549e051f079) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prompts/Keyboard & Mouse/Light/Del_Key_Light.png using Guid(c7439b3ce347a6840b7e6549e051f079) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '400ed4357c4291112144f444b923de4a') in 0.015755 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Prompts/Keyboard & Mouse/Light/Semicolon_Key_Light.png
-  artifactKey: Guid(2d7e98d006024604ba6b340e988b1c8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prompts/Keyboard & Mouse/Light/Semicolon_Key_Light.png using Guid(2d7e98d006024604ba6b340e988b1c8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b51e5b8beddd3ba47c48d5d57de05a4') in 0.017612 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Prompts/Keyboard & Mouse/Light/K_Key_Light.png
-  artifactKey: Guid(fed460b704430124386d38ab145d8100) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prompts/Keyboard & Mouse/Light/K_Key_Light.png using Guid(fed460b704430124386d38ab145d8100) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4352b4f23e9f9e0077b210fac97b5d9d') in 0.035264 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Prompts/Keyboard & Mouse/Light/Quote_Key_Light.png
-  artifactKey: Guid(9ffc401f07cd67c45beca8f1c4847a39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prompts/Keyboard & Mouse/Light/Quote_Key_Light.png using Guid(9ffc401f07cd67c45beca8f1c4847a39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b5a71ca7021c73eb7f926375463bbdb') in 0.014896 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Prompts/Keyboard & Mouse/Light/11_Key_Light.png
-  artifactKey: Guid(4604950d4aab5f04baa5404ed1b86fa7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prompts/Keyboard & Mouse/Light/11_Key_Light.png using Guid(4604950d4aab5f04baa5404ed1b86fa7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6dc20808331a9b32de5aa64d88e3b622') in 0.022156 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Prompts/Keyboard & Mouse/Light/Question_Key_Light.png
-  artifactKey: Guid(d07f70c529b4c414aac39eee3c416625) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prompts/Keyboard & Mouse/Light/Question_Key_Light.png using Guid(d07f70c529b4c414aac39eee3c416625) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02696327de965d8e806420de74909680') in 0.013921 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Prompts/Keyboard & Mouse/Light/U_Key_Light.png
-  artifactKey: Guid(7430433077e7bba45ae0f767db3e67c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prompts/Keyboard & Mouse/Light/U_Key_Light.png using Guid(7430433077e7bba45ae0f767db3e67c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b37313b9e9e29368b0b50b720b374b43') in 0.013322 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Prompts/Keyboard & Mouse/Light/H_Key_Light.png
-  artifactKey: Guid(3156dec6ca1074b4b97654f0d3d7f49b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prompts/Keyboard & Mouse/Light/H_Key_Light.png using Guid(3156dec6ca1074b4b97654f0d3d7f49b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45bd6a6ee7d712bdf1c43d7892d3af4c') in 0.013164 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Prompts/Keyboard & Mouse/Light/F10_Key_Light.png
-  artifactKey: Guid(18c9a2c514b6d424786fa06e10471f5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prompts/Keyboard & Mouse/Light/F10_Key_Light.png using Guid(18c9a2c514b6d424786fa06e10471f5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a99f6f8f0951a6f0e34c392b032bca7d') in 0.014173 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Prompts/Keyboard & Mouse/Light/Asterisk_Key_Light.png
-  artifactKey: Guid(1e1f62325eb743a4aaf6b979059072c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prompts/Keyboard & Mouse/Light/Asterisk_Key_Light.png using Guid(1e1f62325eb743a4aaf6b979059072c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76ab53db45bb97f6c7546fb29f619d0d') in 0.013636 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Prompts/Keyboard & Mouse/Light/End_Key_Light.png
-  artifactKey: Guid(22e01de4ebe206f4db397b077505af0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prompts/Keyboard & Mouse/Light/End_Key_Light.png using Guid(22e01de4ebe206f4db397b077505af0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2de418b14ec3569215991a4ee7c3d4c') in 0.014279 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Prompts/Keyboard & Mouse/Light/F_Key_Light.png
-  artifactKey: Guid(94624d1fd4d2f894494f8752bc64758a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prompts/Keyboard & Mouse/Light/F_Key_Light.png using Guid(94624d1fd4d2f894494f8752bc64758a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9deaef2cc2e9b5f290bd01722dcd0b2') in 0.014136 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Prompts/Keyboard & Mouse/Light/Enter_Tall_Key_Light.png
-  artifactKey: Guid(60de5415d0f39744e8d545a90c5376c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prompts/Keyboard & Mouse/Light/Enter_Tall_Key_Light.png using Guid(60de5415d0f39744e8d545a90c5376c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd03d2a469b6351fa9eb6da77e8ea80d7') in 0.013470 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Prompts/Keyboard & Mouse/Light/Alt_Key_Light.png
-  artifactKey: Guid(989c9fb03d9140b40a6c228e4fc3d064) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prompts/Keyboard & Mouse/Light/Alt_Key_Light.png using Guid(989c9fb03d9140b40a6c228e4fc3d064) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7762fda12555b2668541807c33aa8947') in 0.013796 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/Prompts/Keyboard & Mouse/Light/J_Key_Light.png
-  artifactKey: Guid(e5481f7b57094c74c8e4d04cfa2f7021) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prompts/Keyboard & Mouse/Light/J_Key_Light.png using Guid(e5481f7b57094c74c8e4d04cfa2f7021) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '759c1cf49d6b566d82cd1a937c2788ac') in 0.012782 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Prompts/Keyboard & Mouse/Light/Enter_Key_Light.png
-  artifactKey: Guid(11e759639cb14bd428f765d3a1df5830) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prompts/Keyboard & Mouse/Light/Enter_Key_Light.png using Guid(11e759639cb14bd428f765d3a1df5830) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6c6f0ab84bfadaead0490d4129acd74') in 0.013800 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/Prompts/Keyboard & Mouse/Light/F8_Key_Light.png
-  artifactKey: Guid(8e90fe971aca8a84ab501d0351345bf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prompts/Keyboard & Mouse/Light/F8_Key_Light.png using Guid(8e90fe971aca8a84ab501d0351345bf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97446f9e5f29a4f0c913172917168d17') in 0.012323 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Prompts/Keyboard & Mouse/Light/F5_Key_Light.png
-  artifactKey: Guid(f0d9bedc2a4b11b4fbdf04f69b5c776e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prompts/Keyboard & Mouse/Light/F5_Key_Light.png using Guid(f0d9bedc2a4b11b4fbdf04f69b5c776e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '827a32fd851e8ad6cfaac7fe8d372fb4') in 0.014285 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Prompts/Keyboard & Mouse/Light/Mark_Left_Key_Light.png
-  artifactKey: Guid(d06d0cc05ce26134f8b4f3f7b6939c2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prompts/Keyboard & Mouse/Light/Mark_Left_Key_Light.png using Guid(d06d0cc05ce26134f8b4f3f7b6939c2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89a6b0d76e793b7a44e09daeadde6eb9') in 0.013994 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Prompts/Keyboard & Mouse/Light/F4_Key_Light.png
-  artifactKey: Guid(d6d7124c150dc454cb482c3856dae9fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prompts/Keyboard & Mouse/Light/F4_Key_Light.png using Guid(d6d7124c150dc454cb482c3856dae9fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e9f813a7aca1d85e67468284df796e8') in 0.013239 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/Prompts/Keyboard & Mouse/Light/R_Key_Light.png
-  artifactKey: Guid(7efd659aceca0a8489bf69535b95b825) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prompts/Keyboard & Mouse/Light/R_Key_Light.png using Guid(7efd659aceca0a8489bf69535b95b825) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e7f6934ad669da138bc22b2084fb3e8') in 0.013016 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Prompts/Keyboard & Mouse/Light/L_Key_Light.png
-  artifactKey: Guid(0bed49c1fe21d8f4db534f83eedf5b2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prompts/Keyboard & Mouse/Light/L_Key_Light.png using Guid(0bed49c1fe21d8f4db534f83eedf5b2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf2c29e74cb45cd76769a25e209c6ae8') in 0.012773 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Prompts/Keyboard & Mouse/Light/F2_Key_Light.png
-  artifactKey: Guid(e75c4b4eff22d014fa40edf08d779a63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prompts/Keyboard & Mouse/Light/F2_Key_Light.png using Guid(e75c4b4eff22d014fa40edf08d779a63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e759567cd3a79c1fcee2207ce641533') in 0.012970 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Prompts/Keyboard & Mouse/Light/T_Key_Light.png
-  artifactKey: Guid(617dd0ab4580178428fa44b29979b147) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prompts/Keyboard & Mouse/Light/T_Key_Light.png using Guid(617dd0ab4580178428fa44b29979b147) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ac0253ba87f63ab7f34c9f00cc452d0') in 0.012141 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Prompts/Keyboard & Mouse/Light/W_Key_Light.png
-  artifactKey: Guid(b93b57c182c98714698cb43e92abebd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prompts/Keyboard & Mouse/Light/W_Key_Light.png using Guid(b93b57c182c98714698cb43e92abebd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9da5ef0740c878413078954489f5fe15') in 0.018361 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Prompts/Keyboard & Mouse/Light/Shift_Alt_Key_Light.png
-  artifactKey: Guid(4d71bad751f85854eae5ebc74578badc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prompts/Keyboard & Mouse/Light/Shift_Alt_Key_Light.png using Guid(4d71bad751f85854eae5ebc74578badc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9275eccb6bda045adc90f1f9b5038713') in 0.014655 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Prompts/Keyboard & Mouse/Light/12_Key_Light.png
-  artifactKey: Guid(39f8787788fdb5b4d835c63d4259494b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prompts/Keyboard & Mouse/Light/12_Key_Light.png using Guid(39f8787788fdb5b4d835c63d4259494b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0be98a28c589eb84946a78e8f72f1ce') in 0.014125 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Prompts/Keyboard & Mouse/Light/F9_Key_Light.png
-  artifactKey: Guid(d5e244d96fc72144cac1c53552b27e8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prompts/Keyboard & Mouse/Light/F9_Key_Light.png using Guid(d5e244d96fc72144cac1c53552b27e8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7577145b085f1673b34609d33c4a9c3d') in 0.020299 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Prompts/Keyboard & Mouse/Light/G_Key_Light.png
-  artifactKey: Guid(d64c19f53abb1a5459ae061a40531ba0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prompts/Keyboard & Mouse/Light/G_Key_Light.png using Guid(d64c19f53abb1a5459ae061a40531ba0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f0cdea6d9f51ae2fa0e40203532346f') in 0.013154 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 110.536187 seconds.
-  path: Assets/Prompts/Keyboard & Mouse/Light/Win_Key_Light.png
-  artifactKey: Guid(1fc21e5799f43514b8ce07ba9c681439) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prompts/Keyboard & Mouse/Light/Win_Key_Light.png using Guid(1fc21e5799f43514b8ce07ba9c681439) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '802ad086e19285e74c603461c60902a8') in 0.020118 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Prompts/Keyboard & Mouse/Light/Y_Key_Light.png
-  artifactKey: Guid(d73d55a8e9cb37f4b9dfe05d0cdae5fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prompts/Keyboard & Mouse/Light/Y_Key_Light.png using Guid(d73d55a8e9cb37f4b9dfe05d0cdae5fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abe05cde2b87bbbddc442ee1e9b09733') in 0.025084 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 680.219783 seconds.
-  path: Assets/Prompts/Keyboard & Mouse/Blanks
-  artifactKey: Guid(f12f52f06ca466841a3e665b2dd0cfbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prompts/Keyboard & Mouse/Blanks using Guid(f12f52f06ca466841a3e665b2dd0cfbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b0a5a7e93fec5acb00af606150afc46') in 0.000808 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.508 seconds
-Refreshing native plugins compatible for Editor in 5.80 ms, found 4 plugins.
-Native extension for WindowsStandalone target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.564 seconds
-Domain Reload Profiling: 2066ms
-	BeginReloadAssembly (168ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (10ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (45ms)
-	RebuildCommonClasses (32ms)
-	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (31ms)
-	LoadAllAssembliesAndSetupDomain (261ms)
-		LoadAssemblies (319ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (21ms)
-			TypeCache.Refresh (7ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (12ms)
-	FinalizeReload (1564ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (539ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (6ms)
-			SetLoadedEditorAssemblies (5ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (89ms)
-			ProcessInitializeOnLoadAttributes (362ms)
-			ProcessInitializeOnLoadMethodAttributes (68ms)
-			AfterProcessingInitializeOnLoad (7ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (16ms)
-Refreshing native plugins compatible for Editor in 6.17 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6104 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 50 unused Assets / (392.5 KB). Loaded Objects now: 6873.
-Memory consumption went from 217.7 MB to 217.3 MB.
-Total: 4.297700 ms (FindLiveObjects: 0.630500 ms CreateObjectMapping: 0.612500 ms MarkObjects: 2.924800 ms  DeleteObjects: 0.128900 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 4d1d7186bcbbfe361de5f0ad951e585c -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.512 seconds
-Refreshing native plugins compatible for Editor in 5.96 ms, found 4 plugins.
-Native extension for WindowsStandalone target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.415 seconds
-Domain Reload Profiling: 1923ms
-	BeginReloadAssembly (169ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (11ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (40ms)
-	RebuildCommonClasses (31ms)
-	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (30ms)
-	LoadAllAssembliesAndSetupDomain (267ms)
-		LoadAssemblies (331ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (21ms)
-			TypeCache.Refresh (8ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (12ms)
-	FinalizeReload (1415ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (544ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (6ms)
-			SetLoadedEditorAssemblies (5ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (90ms)
-			ProcessInitializeOnLoadAttributes (372ms)
-			ProcessInitializeOnLoadMethodAttributes (65ms)
-			AfterProcessingInitializeOnLoad (7ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (15ms)
-Refreshing native plugins compatible for Editor in 6.24 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6104 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 50 unused Assets / (392.5 KB). Loaded Objects now: 6890.
-Memory consumption went from 219.6 MB to 219.2 MB.
-Total: 3.931400 ms (FindLiveObjects: 0.498400 ms CreateObjectMapping: 0.542000 ms MarkObjects: 2.777700 ms  DeleteObjects: 0.112200 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 4d1d7186bcbbfe361de5f0ad951e585c -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 447.029571 seconds.
-  path: Assets/Prompts/PS5
-  artifactKey: Guid(a4e410bb2741c1e43a17c7191c5d6bc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prompts/PS5 using Guid(a4e410bb2741c1e43a17c7191c5d6bc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09952a3854f18aef91cd66a89279f561') in 0.002850 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.045616 seconds.
-  path: Assets/Prompts/PS5/PS5_Circle.png
-  artifactKey: Guid(59e3f2d4acbf8c143ad9a9ee3c83fb73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prompts/PS5/PS5_Circle.png using Guid(59e3f2d4acbf8c143ad9a9ee3c83fb73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f55509313aab8ed4cc4b8a40c9d96e30') in 0.065175 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Prompts/PS5/PS5_Dpad_Left.png
-  artifactKey: Guid(65cef36f0b39fe24ab15dc10fec3e6d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prompts/PS5/PS5_Dpad_Left.png using Guid(65cef36f0b39fe24ab15dc10fec3e6d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd80df685c265cf6ef8db8c7656cd3beb') in 0.024645 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Prompts/PS5/PS5_Left_Stick.png
-  artifactKey: Guid(c7ee27a0515ccd744a711784804068f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prompts/PS5/PS5_Left_Stick.png using Guid(c7ee27a0515ccd744a711784804068f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ae65ab78d8e56a3edd8aa8a54a1e07a') in 0.022638 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Prompts/PS5/PS5_Square.png
-  artifactKey: Guid(291e365668dd71647aeb3e27b42d65f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prompts/PS5/PS5_Square.png using Guid(291e365668dd71647aeb3e27b42d65f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1d90336e3c9bbe488ec42f0f6630966') in 0.024859 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Prompts/PS5/PS5_Dpad.png
-  artifactKey: Guid(df39845a04d92444392eaf93e1c5bc89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prompts/PS5/PS5_Dpad.png using Guid(df39845a04d92444392eaf93e1c5bc89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc82b33f38d8206c8bbd85556e3a9b68') in 0.024825 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Prompts/PS5/PS5_Options_Alt.png
-  artifactKey: Guid(8872a150ae1e40a4490f6590886cfa92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prompts/PS5/PS5_Options_Alt.png using Guid(8872a150ae1e40a4490f6590886cfa92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '753607b7c19e4154a56b207a67fb00e8') in 0.018823 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/Prompts/PS5/PS5_Dpad_Down.png
-  artifactKey: Guid(5898c32d5fcd18443961074ad34b3f2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prompts/PS5/PS5_Dpad_Down.png using Guid(5898c32d5fcd18443961074ad34b3f2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '146a1324f65520572bc730ffa36b1737') in 0.018705 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Prompts/PS5/PS5_Options.png
-  artifactKey: Guid(5e1c015cbfb622c45abdfad066fd9abc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prompts/PS5/PS5_Options.png using Guid(5e1c015cbfb622c45abdfad066fd9abc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b1891eae7339e4ac2da44961767bfae') in 0.020205 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Prompts/PS5/PS5_L2.png
-  artifactKey: Guid(4cb090d96ff7ed14dad7195585a6c753) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prompts/PS5/PS5_L2.png using Guid(4cb090d96ff7ed14dad7195585a6c753) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50fdb419e91599b162891776d5510819') in 0.019051 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Prompts/PS5/PS5_Share.png
-  artifactKey: Guid(82e4357a6a7a00a45a7c40869998249f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prompts/PS5/PS5_Share.png using Guid(82e4357a6a7a00a45a7c40869998249f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44db5a4a9c45668cc1ce49a4ba7a246b') in 0.026134 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Prompts/PS5/PS5_Dpad_Right.png
-  artifactKey: Guid(2e7cbae311b7a94409183103b01055e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prompts/PS5/PS5_Dpad_Right.png using Guid(2e7cbae311b7a94409183103b01055e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79c6c0c1192d7e8e305ec6a24b185a73') in 0.020874 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Prompts/PS5/PS5_Diagram_Simple.png
-  artifactKey: Guid(87db736d71288934bbfedf50503bfa29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prompts/PS5/PS5_Diagram_Simple.png using Guid(87db736d71288934bbfedf50503bfa29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e09a04a7304488b30b883ef4252a890f') in 0.045708 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Prompts/PS5/PS5_Left_Stick_Click.png
-  artifactKey: Guid(076a7f5e2cd36cb45b6bbbb6ae060d74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prompts/PS5/PS5_Left_Stick_Click.png using Guid(076a7f5e2cd36cb45b6bbbb6ae060d74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffacf69ce4452168c86a84efbc93cbef') in 0.017129 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 4.258247 seconds.
-  path: Assets/Prompts/Switch
-  artifactKey: Guid(c85ac6310189a2549ae7f4f8cbeb299c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prompts/Switch using Guid(c85ac6310189a2549ae7f4f8cbeb299c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47c02935b5affd2982e4ccbfb908ed17') in 0.000693 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.064318 seconds.
-  path: Assets/Prompts/Switch/Switch_A.png
-  artifactKey: Guid(87ab724568e68aa4eae8b559f1c8ea89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prompts/Switch/Switch_A.png using Guid(87ab724568e68aa4eae8b559f1c8ea89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef5059acbfcdc539bcbb46b15287fe52') in 0.024234 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Prompts/Switch/Switch_Dpad_Right.png
-  artifactKey: Guid(70407450a54ffce41acef5cf7b800ed2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prompts/Switch/Switch_Dpad_Right.png using Guid(70407450a54ffce41acef5cf7b800ed2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '553ea6334a1afdb646787c8ff3e01018') in 0.022463 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Prompts/Switch/Switch_Left.png
-  artifactKey: Guid(4bc9e71918739b242a65cf1a26472744) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prompts/Switch/Switch_Left.png using Guid(4bc9e71918739b242a65cf1a26472744) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27f920d0fbe92743e29a3c06f38dcdcc') in 0.019934 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Prompts/Switch/Switch_Controllers_Separate.png
-  artifactKey: Guid(630a41960d9622a44b752f743df01595) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prompts/Switch/Switch_Controllers_Separate.png using Guid(630a41960d9622a44b752f743df01595) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdc796c4f65d23a45fa58c422b403d6f') in 0.023423 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Prompts/Switch/Switch_Controller_Left.png
-  artifactKey: Guid(e67e2dba1255ed246aa00f6c042aefde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prompts/Switch/Switch_Controller_Left.png using Guid(e67e2dba1255ed246aa00f6c042aefde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc488f0df745aa14742707928c22925d') in 0.022713 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Prompts/Switch/Switch_Up.png
-  artifactKey: Guid(d581f61538d526a458627e0eaf075c54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prompts/Switch/Switch_Up.png using Guid(d581f61538d526a458627e0eaf075c54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33643cd939970c557e107715913492f0') in 0.025349 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Prompts/Switch/Switch_Dpad.png
-  artifactKey: Guid(bcdd590ee901afb43b9fd3bb02ab973d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prompts/Switch/Switch_Dpad.png using Guid(bcdd590ee901afb43b9fd3bb02ab973d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e73f0f98f51c3cef1e9ddd6fcbaebec5') in 0.021076 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Prompts/Switch/Switch_Controllers.png
-  artifactKey: Guid(29bf53e3353b4524da5a4e06b9c430ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prompts/Switch/Switch_Controllers.png using Guid(29bf53e3353b4524da5a4e06b9c430ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '177e8c179ca72cb6463b393ef82a1aad') in 0.017670 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Prompts/Switch/Switch_Right_Stick_Click.png
-  artifactKey: Guid(c53e35f4d0b3c8e4c9ea7c3690f39012) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prompts/Switch/Switch_Right_Stick_Click.png using Guid(c53e35f4d0b3c8e4c9ea7c3690f39012) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '352756834c87bda9f2365912284ffd17') in 0.019817 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Prompts/Switch/Switch_Controller_Right.png
-  artifactKey: Guid(adafe86030144c941a2981a51e70d2b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prompts/Switch/Switch_Controller_Right.png using Guid(adafe86030144c941a2981a51e70d2b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa205851b68edc37413a2d80b69d4d50') in 0.021636 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Prompts/Switch/Switch_LT.png
-  artifactKey: Guid(54b76bac949f4b5478d36e64d5d0c2e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prompts/Switch/Switch_LT.png using Guid(54b76bac949f4b5478d36e64d5d0c2e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b07d81fa4f32e8cea211538f178f09d') in 0.025602 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Prompts/Switch/Switch_RT.png
-  artifactKey: Guid(c197bb03a012fbd45a7614f6d14a92b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prompts/Switch/Switch_RT.png using Guid(c197bb03a012fbd45a7614f6d14a92b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6631a3753c844c0f81547968c06ee648') in 0.022568 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 2.138053 seconds.
-  path: Assets/Prompts/Xbox Series/XboxSeriesX_B.png
-  artifactKey: Guid(919e3a17dfb7d764a9a3bb9e30c1b2ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prompts/Xbox Series/XboxSeriesX_B.png using Guid(919e3a17dfb7d764a9a3bb9e30c1b2ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fdab17e5c66c4330ddfbec07955f4f0') in 0.024403 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Prompts/Xbox Series/XboxSeriesX_Share.png
-  artifactKey: Guid(54b95b7bc7796e745a8ae975074ba5c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prompts/Xbox Series/XboxSeriesX_Share.png using Guid(54b95b7bc7796e745a8ae975074ba5c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c32934447172c7cd6005452bfe51f939') in 0.024090 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Prompts/Xbox Series/XboxSeriesX_Left_Stick.png
-  artifactKey: Guid(95893fae70084b341a4584e92a3f8f23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prompts/Xbox Series/XboxSeriesX_Left_Stick.png using Guid(95893fae70084b341a4584e92a3f8f23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6a45cb70baa3eaf3f037c6adaa93ebb') in 0.028485 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Prompts/Xbox Series/XboxSeriesX_LT.png
-  artifactKey: Guid(bda2b7be97daca94a8408dadc716c506) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prompts/Xbox Series/XboxSeriesX_LT.png using Guid(bda2b7be97daca94a8408dadc716c506) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57028f282a3ed6022e91bdf74fcf052a') in 0.024052 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Prompts/Xbox Series/XboxSeriesX_Left_Stick_Click.png
-  artifactKey: Guid(1b3998ef493efb14abd1b30dcffd03d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prompts/Xbox Series/XboxSeriesX_Left_Stick_Click.png using Guid(1b3998ef493efb14abd1b30dcffd03d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8de27839c0e90cf3bc2e1d1ae081aef8') in 0.020410 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Prompts/Xbox Series/XboxSeriesX_Diagram_Simple.png
-  artifactKey: Guid(50ff216531d239047b45c2ef199cee3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prompts/Xbox Series/XboxSeriesX_Diagram_Simple.png using Guid(50ff216531d239047b45c2ef199cee3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7c74d5f1d5b35089d4293729f42c1d3') in 0.028061 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Prompts/Xbox Series/XboxSeriesX_Right_Stick_Click.png
-  artifactKey: Guid(d5a6e533bdb76e2498992c33b606e0da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prompts/Xbox Series/XboxSeriesX_Right_Stick_Click.png using Guid(d5a6e533bdb76e2498992c33b606e0da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d8dffbd052de67671bff2d5046ac943') in 0.021661 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Prompts/Xbox Series/XboxSeriesX_LB.png
-  artifactKey: Guid(168ca74a8742d8a4fa1bc9ab692577f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prompts/Xbox Series/XboxSeriesX_LB.png using Guid(168ca74a8742d8a4fa1bc9ab692577f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbd74be35cde04e9f3117bed24b5dd83') in 0.018864 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 6.158872 seconds.
-  path: Assets/Prompts/Steam Deck/SteamDeck_B.png
-  artifactKey: Guid(ba0ad7728fc214942bacc6a967842fd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prompts/Steam Deck/SteamDeck_B.png using Guid(ba0ad7728fc214942bacc6a967842fd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d507ade0b907c051a55844037ffd402') in 0.023841 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Prompts/Steam Deck/SteamDeck_Gyro.png
-  artifactKey: Guid(ad214909c2ba1ba4994f03db4c6d89ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prompts/Steam Deck/SteamDeck_Gyro.png using Guid(ad214909c2ba1ba4994f03db4c6d89ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6351e1f26e539ccc37a8b591d2721872') in 0.028519 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/Prompts/Steam Deck/SteamDeck_Right_Track.png
-  artifactKey: Guid(feaff02c50fdfba4f8ee2405c8adfe65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prompts/Steam Deck/SteamDeck_Right_Track.png using Guid(feaff02c50fdfba4f8ee2405c8adfe65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9699109fe9d25c498f7a6ee63c6bc14') in 0.024762 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Prompts/Steam Deck/SteamDeck_Dpad_Right.png
-  artifactKey: Guid(36a87a68592983945a24e6e27198b106) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prompts/Steam Deck/SteamDeck_Dpad_Right.png using Guid(36a87a68592983945a24e6e27198b106) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28d68bc5244fb33a7bcd13f8b55fae5a') in 0.024795 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Prompts/Steam Deck/SteamDeck_R4.png
-  artifactKey: Guid(ff0f09bdb8caa2440910cb4249686251) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prompts/Steam Deck/SteamDeck_R4.png using Guid(ff0f09bdb8caa2440910cb4249686251) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50584ab022dbbba59093107324a09d1a') in 0.024022 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Prompts/Steam Deck/SteamDeck_Minus.png
-  artifactKey: Guid(796097ca74b300741aa191afa3dee79b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prompts/Steam Deck/SteamDeck_Minus.png using Guid(796097ca74b300741aa191afa3dee79b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'beb7e73c2bee21a9572ce89085046e27') in 0.024555 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Prompts/Steam Deck/SteamDeck_Square.png
-  artifactKey: Guid(51e99e3ab947bd14b88692ebae699db4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prompts/Steam Deck/SteamDeck_Square.png using Guid(51e99e3ab947bd14b88692ebae699db4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e67211ba37648d4ef62b89519b53f934') in 0.019878 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Prompts/Steam Deck/SteamDeck_L5.png
-  artifactKey: Guid(03ed7cb7e5af8a043bd323c796530a7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prompts/Steam Deck/SteamDeck_L5.png using Guid(03ed7cb7e5af8a043bd323c796530a7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '540e74c7498eeefad86a3fa0b880b301') in 0.020322 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Prompts/Steam Deck/SteamDeck_L2.png
-  artifactKey: Guid(ccb0b12ddc38f0f45a5b9231af66cf80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prompts/Steam Deck/SteamDeck_L2.png using Guid(ccb0b12ddc38f0f45a5b9231af66cf80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17c5d742a89db7a70630abd2d2a5b996') in 0.023127 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Prompts/Steam Deck/SteamDeck_Right_Stick_Click.png
-  artifactKey: Guid(dee9331e470fb8749b1787e24aea5556) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prompts/Steam Deck/SteamDeck_Right_Stick_Click.png using Guid(dee9331e470fb8749b1787e24aea5556) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b091b714798386f8719920ab0cae3b2') in 0.018836 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Prompts/Steam Deck/SteamDeck_Plus.png
-  artifactKey: Guid(d74ccc44b9bcc9e44acfe2afedb8769c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prompts/Steam Deck/SteamDeck_Plus.png using Guid(d74ccc44b9bcc9e44acfe2afedb8769c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5e690f1086e7113a3a063ce69892e66') in 0.017689 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 7.052012 seconds.
-  path: Assets/Prompts/Others/PS4/PS4_Cross.png
-  artifactKey: Guid(065a20831e64f9a4ea7ab7f3c5203c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prompts/Others/PS4/PS4_Cross.png using Guid(065a20831e64f9a4ea7ab7f3c5203c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fcbecced6fbc3b618954458d2ab98a92') in 0.022175 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Prompts/Others/PS4/PS4_Dpad_Right.png
-  artifactKey: Guid(077610a2aff7c474da6e6e6e9d3be2d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prompts/Others/PS4/PS4_Dpad_Right.png using Guid(077610a2aff7c474da6e6e6e9d3be2d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec24ec54085abc55a370efc695fddd20') in 0.022703 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Prompts/Others/PS4/PS4_Right_Stick.png
-  artifactKey: Guid(0e0af1ae87b0b3e46bd54f7b7861e480) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prompts/Others/PS4/PS4_Right_Stick.png using Guid(0e0af1ae87b0b3e46bd54f7b7861e480) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '261b273ad47b0f310e049a163b4dc007') in 0.029455 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Prompts/Others/PS4/PS4_L1.png
-  artifactKey: Guid(2e0da26097469e74683e60ba9a54c31c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prompts/Others/PS4/PS4_L1.png using Guid(2e0da26097469e74683e60ba9a54c31c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6ccf68e8bd022c22d9e7e763060e873') in 0.022479 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Prompts/Others/PS4/PS4_L2.png
-  artifactKey: Guid(e053b91566ab4a5448d2959671103dfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prompts/Others/PS4/PS4_L2.png using Guid(e053b91566ab4a5448d2959671103dfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67db4f908d5cc6cf4050021ec6628193') in 0.024064 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Prompts/Others/PS4/PS4_Dpad_Down.png
-  artifactKey: Guid(ac780d8200401c8459b782a4ebf41733) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prompts/Others/PS4/PS4_Dpad_Down.png using Guid(ac780d8200401c8459b782a4ebf41733) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f654639ada0f53eb6961069f5ad877d2') in 0.025920 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Prompts/Others/PS4/PS4_Options.png
-  artifactKey: Guid(8421344d2d6796b429ff74a4195fb680) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prompts/Others/PS4/PS4_Options.png using Guid(8421344d2d6796b429ff74a4195fb680) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53862051341fc0e1cf62d0fdca1e85fe') in 0.029300 seconds
+  path: Assets/Prompts/Others/Xbox 360/360_Right_Stick_Click.png
+  artifactKey: Guid(15ffa7af681504c4a8768bb7b6431702) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prompts/Others/Xbox 360/360_Right_Stick_Click.png using Guid(15ffa7af681504c4a8768bb7b6431702) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65cea25181955567f09fe8d99e7e1a0e') in 0.023751 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Prepare
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.514 seconds
-Refreshing native plugins compatible for Editor in 6.14 ms, found 4 plugins.
+- Loaded All Assemblies, in  0.605 seconds
+Refreshing native plugins compatible for Editor in 7.64 ms, found 4 plugins.
 Native extension for WindowsStandalone target not found
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.541 seconds
-Domain Reload Profiling: 2050ms
-	BeginReloadAssembly (168ms)
+- Finished resetting the current domain, in  1.652 seconds
+Domain Reload Profiling: 2252ms
+	BeginReloadAssembly (194ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (10ms)
+		DisableScriptedObjects (13ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (44ms)
-	RebuildCommonClasses (30ms)
-	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (31ms)
-	LoadAllAssembliesAndSetupDomain (269ms)
-		LoadAssemblies (325ms)
+		CreateAndSetChildDomain (47ms)
+	RebuildCommonClasses (46ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (39ms)
+	LoadAllAssembliesAndSetupDomain (308ms)
+		LoadAssemblies (382ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (24ms)
+		AnalyzeDomain (27ms)
 			TypeCache.Refresh (10ms)
 				TypeCache.ScanAssembly (0ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (12ms)
-	FinalizeReload (1542ms)
+			ResolveRequiredComponents (15ms)
+	FinalizeReload (1653ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (537ms)
+		SetupLoadedEditorAssemblies (656ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (6ms)
-			SetLoadedEditorAssemblies (5ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (90ms)
-			ProcessInitializeOnLoadAttributes (362ms)
-			ProcessInitializeOnLoadMethodAttributes (66ms)
-			AfterProcessingInitializeOnLoad (8ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (16ms)
-Refreshing native plugins compatible for Editor in 6.15 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6104 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 50 unused Assets / (392.4 KB). Loaded Objects now: 6909.
-Memory consumption went from 221.6 MB to 221.2 MB.
-Total: 4.428900 ms (FindLiveObjects: 0.604500 ms CreateObjectMapping: 0.687200 ms MarkObjects: 3.001500 ms  DeleteObjects: 0.134700 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 4d1d7186bcbbfe361de5f0ad951e585c -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 280.954452 seconds.
-  path: Assets/Prompts/Others/Gestures
-  artifactKey: Guid(a1ef2676128c44d4ca664cb99ba7d83f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prompts/Others/Gestures using Guid(a1ef2676128c44d4ca664cb99ba7d83f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74e5591b6c9e05a3d9f3ee1e5e44128a') in 0.001657 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.041364 seconds.
-  path: Assets/Prompts/Others/Gestures/Gesture_Double_Rotate.png
-  artifactKey: Guid(33fa5994cbf64f24abf31f950f97ce71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prompts/Others/Gestures/Gesture_Double_Rotate.png using Guid(33fa5994cbf64f24abf31f950f97ce71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e2eb82c5675f7de9eaa8bd427e93af0') in 0.085995 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Prompts/Others/Gestures/Gesture_Finger_Front.png
-  artifactKey: Guid(79a1fc2ff977fa14c9c0a6b2af65e646) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prompts/Others/Gestures/Gesture_Finger_Front.png using Guid(79a1fc2ff977fa14c9c0a6b2af65e646) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bedc1d4c5d10e80ac89b38cf1ecc5a18') in 0.023960 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/Prompts/Others/Gestures/Gesture_Swipe_Bottom.png
-  artifactKey: Guid(636810511b5b8614095a13e01d38765e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prompts/Others/Gestures/Gesture_Swipe_Bottom.png using Guid(636810511b5b8614095a13e01d38765e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '984c8e5916617fa5919a21711f54be37') in 0.020342 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Prompts/Others/Gestures/Gesture_Swipe_Up.png
-  artifactKey: Guid(a6659ee4e2755b1439bbf130ff8e5703) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prompts/Others/Gestures/Gesture_Swipe_Up.png using Guid(a6659ee4e2755b1439bbf130ff8e5703) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a52c54d83672c837eecdac32e1acc636') in 0.022037 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Prompts/Others/Gestures/Gesture_Half_Circle.png
-  artifactKey: Guid(b44d2db582890ff4788b6cd7a1261280) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prompts/Others/Gestures/Gesture_Half_Circle.png using Guid(b44d2db582890ff4788b6cd7a1261280) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0651a0e44e0ccabac6e2dae822f00499') in 0.021243 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Prompts/Others/Gestures/Gesture_Full_Circle.png
-  artifactKey: Guid(3863e89193d26974f948c49f93093546) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prompts/Others/Gestures/Gesture_Full_Circle.png using Guid(3863e89193d26974f948c49f93093546) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c8156391649b244a4e35f18d1197f7c') in 0.027143 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/Prompts/Others/Gestures/Gesture_Zoom_Out.png
-  artifactKey: Guid(5405173789be180459b6a05098582dfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prompts/Others/Gestures/Gesture_Zoom_Out.png using Guid(5405173789be180459b6a05098582dfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a82810514173615254b4c22b92666c7f') in 0.021676 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/Prompts/Others/Gestures/Gesture_Swipe_Top_Left.png
-  artifactKey: Guid(bb5b676d04fffe6419d8a426aee7c376) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prompts/Others/Gestures/Gesture_Swipe_Top_Left.png using Guid(bb5b676d04fffe6419d8a426aee7c376) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01e5882579a5dae8fcbc92cf8e0d381e') in 0.019604 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Prompts/Others/Gestures/Gesture_Finger_Side.png
-  artifactKey: Guid(350bee0496a296e4b94ac4012fc64e17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prompts/Others/Gestures/Gesture_Finger_Side.png using Guid(350bee0496a296e4b94ac4012fc64e17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b0f8e8a1ff8a38b5ae821a4e1d87f1c') in 0.020913 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Prompts/Others/Gestures/Gesture_Scroll_Up.png
-  artifactKey: Guid(f93aa14e8ca55ed499da784c66c30d0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prompts/Others/Gestures/Gesture_Scroll_Up.png using Guid(f93aa14e8ca55ed499da784c66c30d0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38351db49b0cdb2ad2a9f172d829a0e8') in 0.023225 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Prompts/Others/Gestures/Gesture_Tap.png
-  artifactKey: Guid(864df079c0a4a4b42b12c5a278aa4c4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prompts/Others/Gestures/Gesture_Tap.png using Guid(864df079c0a4a4b42b12c5a278aa4c4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a77ca3a757a77e1d63489b70aee6f5b') in 0.022078 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Prompts/Others/Gestures/Gesture_Quarter_Circle.png
-  artifactKey: Guid(6adf638290e6df54ca4de71b763aba93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prompts/Others/Gestures/Gesture_Quarter_Circle.png using Guid(6adf638290e6df54ca4de71b763aba93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93036a84bc35231d7cd5417d77d5353f') in 0.032022 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 5.945401 seconds.
-  path: Assets/Prompts/Others/Google Stadia
-  artifactKey: Guid(267aab7c7074c7040824045ea052178c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prompts/Others/Google Stadia using Guid(267aab7c7074c7040824045ea052178c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8376d6eef8b1a77060fbe881dcb3664c') in 0.000570 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.167830 seconds.
-  path: Assets/Prompts/Others/Google Stadia/Stadia_A.png
-  artifactKey: Guid(e952543df96700640ace7d00a1439f88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prompts/Others/Google Stadia/Stadia_A.png using Guid(e952543df96700640ace7d00a1439f88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35fb2f8b7ed233a92dddc34ad9d84228') in 0.029555 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Prompts/Others/Google Stadia/Stadia_Right_Stick.png.png
-  artifactKey: Guid(d2021d0027bf85941a286410687f93b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prompts/Others/Google Stadia/Stadia_Right_Stick.png.png using Guid(d2021d0027bf85941a286410687f93b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '976300b90755cb541161bb5804fc540a') in 0.036612 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Prompts/Others/Google Stadia/Stadia_Dpad.png
-  artifactKey: Guid(d057e1b776d735b4789c3ce23a2144e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prompts/Others/Google Stadia/Stadia_Dpad.png using Guid(d057e1b776d735b4789c3ce23a2144e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85d1eca8bf18e4b5c91b0a0f592a3fc8') in 0.024578 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Prompts/Others/Google Stadia/Stadia_L1.png
-  artifactKey: Guid(89e4c53b8a10dda408220b43757d23c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prompts/Others/Google Stadia/Stadia_L1.png using Guid(89e4c53b8a10dda408220b43757d23c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae8ddd8840a946768161f3b799c8932f') in 0.018885 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Prompts/Others/Google Stadia/Stadia_Left_Stick.png
-  artifactKey: Guid(3b02da14c2eda9f4b9aef1cd6898ddb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prompts/Others/Google Stadia/Stadia_Left_Stick.png using Guid(3b02da14c2eda9f4b9aef1cd6898ddb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8b8c67c1099ee9c76050d3e416e4b79') in 0.018966 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Prompts/Others/Google Stadia/Stadia_Dpad_Left.png
-  artifactKey: Guid(e8558084702c4b54dba03da21c2a0651) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prompts/Others/Google Stadia/Stadia_Dpad_Left.png using Guid(e8558084702c4b54dba03da21c2a0651) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7cd5c489df1a7c5c49651c343174fb50') in 0.018876 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Prompts/Others/Google Stadia/Stadia_L2.png
-  artifactKey: Guid(b107ae5161791aa41a6fe968baac3655) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prompts/Others/Google Stadia/Stadia_L2.png using Guid(b107ae5161791aa41a6fe968baac3655) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06b28f4d0d2977f806d4d5a441d73b92') in 0.017809 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Prompts/Others/Google Stadia/Stadia_Y.png
-  artifactKey: Guid(6ac18cbe4d5e11d468c2d4e57845f949) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prompts/Others/Google Stadia/Stadia_Y.png using Guid(6ac18cbe4d5e11d468c2d4e57845f949) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b3bc78e16c9536b5a0d98b154f43a42') in 0.019285 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.536 seconds
-Refreshing native plugins compatible for Editor in 6.70 ms, found 4 plugins.
-Native extension for WindowsStandalone target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.384 seconds
-Domain Reload Profiling: 1916ms
-	BeginReloadAssembly (166ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (10ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (44ms)
-	RebuildCommonClasses (31ms)
-	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (30ms)
-	LoadAllAssembliesAndSetupDomain (295ms)
-		LoadAssemblies (320ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (52ms)
-			TypeCache.Refresh (12ms)
-				TypeCache.ScanAssembly (1ms)
-			ScanForSourceGeneratedMonoScriptInfo (27ms)
-			ResolveRequiredComponents (12ms)
-	FinalizeReload (1384ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (526ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (6ms)
-			SetLoadedEditorAssemblies (5ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (86ms)
-			ProcessInitializeOnLoadAttributes (355ms)
-			ProcessInitializeOnLoadMethodAttributes (66ms)
-			AfterProcessingInitializeOnLoad (8ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (17ms)
-Refreshing native plugins compatible for Editor in 5.69 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6104 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 50 unused Assets / (392.5 KB). Loaded Objects now: 6938.
-Memory consumption went from 223.5 MB to 223.1 MB.
-Total: 4.229100 ms (FindLiveObjects: 0.577200 ms CreateObjectMapping: 0.628900 ms MarkObjects: 2.897500 ms  DeleteObjects: 0.124600 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 4d1d7186bcbbfe361de5f0ad951e585c -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.791 seconds
-Refreshing native plugins compatible for Editor in 6.73 ms, found 4 plugins.
-Native extension for WindowsStandalone target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.610 seconds
-Domain Reload Profiling: 2397ms
-	BeginReloadAssembly (204ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (11ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (57ms)
-	RebuildCommonClasses (39ms)
-	RebuildNativeTypeToScriptingClass (13ms)
-	initialDomainReloadingComplete (40ms)
-	LoadAllAssembliesAndSetupDomain (491ms)
-		LoadAssemblies (496ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (90ms)
-			TypeCache.Refresh (29ms)
-				TypeCache.ScanAssembly (1ms)
-			ScanForSourceGeneratedMonoScriptInfo (41ms)
-			ResolveRequiredComponents (18ms)
-	FinalizeReload (1610ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (570ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (6ms)
-			SetLoadedEditorAssemblies (5ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (93ms)
-			ProcessInitializeOnLoadAttributes (386ms)
-			ProcessInitializeOnLoadMethodAttributes (71ms)
-			AfterProcessingInitializeOnLoad (8ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (17ms)
-Refreshing native plugins compatible for Editor in 6.08 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6104 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 50 unused Assets / (392.5 KB). Loaded Objects now: 6955.
-Memory consumption went from 225.4 MB to 225.1 MB.
-Total: 5.064900 ms (FindLiveObjects: 0.834800 ms CreateObjectMapping: 0.758100 ms MarkObjects: 3.340100 ms  DeleteObjects: 0.130100 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 4d1d7186bcbbfe361de5f0ad951e585c -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.561 seconds
-Refreshing native plugins compatible for Editor in 5.72 ms, found 4 plugins.
-Native extension for WindowsStandalone target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.387 seconds
-Domain Reload Profiling: 1943ms
-	BeginReloadAssembly (186ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (11ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (50ms)
-	RebuildCommonClasses (31ms)
-	RebuildNativeTypeToScriptingClass (12ms)
-	initialDomainReloadingComplete (31ms)
-	LoadAllAssembliesAndSetupDomain (296ms)
-		LoadAssemblies (333ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (51ms)
-			TypeCache.Refresh (12ms)
-				TypeCache.ScanAssembly (1ms)
-			ScanForSourceGeneratedMonoScriptInfo (27ms)
-			ResolveRequiredComponents (11ms)
-	FinalizeReload (1387ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (542ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (5ms)
 			SetLoadedEditorAssemblies (6ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (91ms)
-			ProcessInitializeOnLoadAttributes (367ms)
-			ProcessInitializeOnLoadMethodAttributes (64ms)
-			AfterProcessingInitializeOnLoad (7ms)
-			EditorAssembliesLoaded (1ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (16ms)
-Refreshing native plugins compatible for Editor in 5.99 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6104 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 50 unused Assets / (392.5 KB). Loaded Objects now: 6972.
-Memory consumption went from 227.4 MB to 227.0 MB.
-Total: 5.109400 ms (FindLiveObjects: 0.563800 ms CreateObjectMapping: 0.620300 ms MarkObjects: 3.797500 ms  DeleteObjects: 0.127100 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 4d1d7186bcbbfe361de5f0ad951e585c -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.559 seconds
-Refreshing native plugins compatible for Editor in 5.60 ms, found 4 plugins.
-Native extension for WindowsStandalone target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.540 seconds
-Domain Reload Profiling: 2095ms
-	BeginReloadAssembly (171ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (11ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (41ms)
-	RebuildCommonClasses (30ms)
-	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (32ms)
-	LoadAllAssembliesAndSetupDomain (310ms)
-		LoadAssemblies (344ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (52ms)
-			TypeCache.Refresh (12ms)
-				TypeCache.ScanAssembly (1ms)
-			ScanForSourceGeneratedMonoScriptInfo (27ms)
-			ResolveRequiredComponents (12ms)
-	FinalizeReload (1541ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (546ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (6ms)
-			SetLoadedEditorAssemblies (5ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (87ms)
-			ProcessInitializeOnLoadAttributes (373ms)
-			ProcessInitializeOnLoadMethodAttributes (68ms)
+			BeforeProcessingInitializeOnLoad (111ms)
+			ProcessInitializeOnLoadAttributes (444ms)
+			ProcessInitializeOnLoadMethodAttributes (80ms)
 			AfterProcessingInitializeOnLoad (8ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (16ms)
-Refreshing native plugins compatible for Editor in 6.84 ms, found 4 plugins.
+		AwakeInstancesAfterBackupRestoration (15ms)
+Refreshing native plugins compatible for Editor in 15.85 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6104 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 50 unused Assets / (392.2 KB). Loaded Objects now: 6989.
-Memory consumption went from 229.3 MB to 228.9 MB.
-Total: 4.533100 ms (FindLiveObjects: 0.638300 ms CreateObjectMapping: 0.718700 ms MarkObjects: 3.048200 ms  DeleteObjects: 0.126800 ms)
+Unloading 6105 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 50 unused Assets / (392.3 KB). Loaded Objects now: 6768.
+Memory consumption went from 213.0 MB to 212.6 MB.
+Total: 4.517000 ms (FindLiveObjects: 0.765300 ms CreateObjectMapping: 0.683100 ms MarkObjects: 2.911700 ms  DeleteObjects: 0.155700 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
@@ -2267,3 +363,8 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

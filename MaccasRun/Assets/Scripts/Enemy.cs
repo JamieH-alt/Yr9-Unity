@@ -17,6 +17,7 @@ public class Enemy : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+
         _rb = GetComponent<Rigidbody2D>();
         _point = pointB.transform;
         _anim.SetInteger("AnimState", 1);
@@ -29,7 +30,7 @@ public class Enemy : MonoBehaviour
         if (_point == pointB.transform) {
             _rb.velocity = new Vector2(speed, 0);
         } else {
-            _rb.velocity = new Vector2(-speed, 0);
+            _rb.velocity = new Vector2(speed * -1, 0);
         }
 
         if (Vector2.Distance(transform.position, _point.position) < 1f) {

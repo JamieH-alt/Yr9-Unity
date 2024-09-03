@@ -8,6 +8,7 @@ TagManager:
   - Deadly
   - Collectable
   - Enemy
+  - Enemy1
   layers:
   - Default
   - TransparentFX

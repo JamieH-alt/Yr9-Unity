@@ -3,6 +3,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.InputSystem.DualShock;
+using UnityEngine.InputSystem.XInput;
 
 public class InputManager : MonoBehaviour
 {
@@ -16,6 +18,8 @@ public class InputManager : MonoBehaviour
     public static bool DashWasPressed;
     public static bool TestWasPressed;
 
+    public static int Device;
+
     private InputAction _moveAction;
     private InputAction _jumpAction;
     private InputAction _runAction;
@@ -23,6 +27,8 @@ public class InputManager : MonoBehaviour
     private InputAction _testAction;
     private InputAction _optionsAction;
     private InputAction _resetAction;
+
+    private DeviceType activeDevice = DeviceType.Desktop;
     
     [SerializeField] private GameObject settingsUi;
 
@@ -73,5 +79,20 @@ public class InputManager : MonoBehaviour
         DashWasPressed = _dashAction.WasPressedThisFrame();
 
         TestWasPressed = _testAction.WasPressedThisFrame();
+
+        if (PlayerInput.currentControlScheme == "Keyboard&Mouse")
+        {
+            Device = 0;
+        } else if (PlayerInput.currentControlScheme == "Gamepad")
+        {
+            if (DualShockGamepad.current != null)
+            {
+                Device = 1;
+            }
+            else
+            {
+                Device = 2;
+            }
+        }
     }
 }

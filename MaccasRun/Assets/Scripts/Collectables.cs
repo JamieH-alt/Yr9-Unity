@@ -4,9 +4,9 @@ using UnityEngine;
 using TMPro;
 using UnityEngine.Audio;
 
-public class Collectables : MonoBehaviour
+public class Collectables : MonoBehaviour, IDataPersistence
 {
-    [SerializeField] private TMP_Text collected; 
+    [SerializeField] private TMP_Text collected;
 
     [SerializeField] private AudioClip _coinClip;
     [SerializeField] private AudioMixerGroup _FX;
@@ -21,6 +21,17 @@ public class Collectables : MonoBehaviour
         }
     }
 
+    public void LoadData(GameData data)
+    {
+        int collectedAm = data.fries;
+        collected.GetComponent<TMP_Text>().SetText(collectedAm.ToString());
+    }
+
+    public void SaveData(ref GameData data)
+    {
+        data.fries = GetCollected();
+    }
+
     public int GetCollected()
     {
         int collectedAm = int.Parse(collected.GetComponent<TMP_Text>().text);
@@ -32,21 +43,21 @@ public class Collectables : MonoBehaviour
     {
         // Check if the entering GameObject has the "Deadly" tag
         if (target.gameObject.CompareTag("Collectable")){
-            int collectedAm = int.Parse(collected.GetComponent<TMP_Text>().text) + 1;
-            collected.GetComponent<TMP_Text>().SetText(collectedAm.ToString());
             SoundFXManager.instance.PlaySoundFXClip(_coinClip, target.gameObject.transform, _FX, 0.6f, 1);
             Destroy(target.gameObject);
+            int collectedAm = int.Parse(collected.GetComponent<TMP_Text>().text) + 1;
+            collected.GetComponent<TMP_Text>().SetText(collectedAm.ToString());
         }
     }
 
     // This method is called when a collision with another Collider2D occurs.
-    void OnCollisionEnter2D(Collision2D target)
-    {
+    // void OnCollisionEnter2D(Collision2D target)
+    // {
         // Check if the colliding GameObject has the "Deadly" tag
-        if (target.gameObject.CompareTag("Collectable")){
-            int collectedAm = int.Parse(collected.GetComponent<TMP_Text>().text) + 1;
-            collected.GetComponent<TMP_Text>().SetText(collectedAm.ToString());
-            Destroy(target.gameObject);
-        }
-    }
+        // if (target.gameObject.CompareTag("Collectable")){
+            // int collectedAm = int.Parse(collected.GetComponent<TMP_Text>().text) + 1;
+            // collected.GetComponent<TMP_Text>().SetText(collectedAm.ToString());
+            // Destroy(target.gameObject);
+        // }
+    // }
 }
