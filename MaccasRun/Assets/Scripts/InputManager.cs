@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -22,7 +23,7 @@ public class InputManager : MonoBehaviour
     private InputAction _testAction;
     private InputAction _optionsAction;
     private InputAction _resetAction;
-
+    
     [SerializeField] private GameObject settingsUi;
 
     private void Awake()
@@ -42,15 +43,20 @@ public class InputManager : MonoBehaviour
 
     private void Update()
     {
-        if (_resetAction.WasPressedThisFrame()) 
+        
+        if (_resetAction.WasPressedThisFrame())
         {
             NextLevel.instance.LoadSameScene();
         }
-        
-        if (_optionsAction.WasPressedThisFrame() && settingsUi != null) {
-            if (settingsUi.activeSelf == false) {
+
+        if (_optionsAction.WasPressedThisFrame() && settingsUi != null)
+        {
+            if (settingsUi.activeSelf == false)
+            {
                 OpenSettings.instance.OpenSettingsMenu();
-            } else {
+            }
+            else
+            {
                 OpenSettings.instance.CloseSettingsMenu();
             }
         }
