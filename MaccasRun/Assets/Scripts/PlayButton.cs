@@ -8,7 +8,9 @@ public class PlayButton : MonoBehaviour
 {
 
     [SerializeField] private Button playButton;
-
+    [SerializeField] private GameObject levelSelect;
+    [SerializeField] private GameObject mainUi;
+    
     // Start is called before the first frame update
     void Start()
     {
@@ -16,6 +18,7 @@ public class PlayButton : MonoBehaviour
     }
 
     void TaskOnClick() {
-        SceneManager.LoadScene("Level_1");
+        mainUi.SetActive(false);
+        levelSelect.SetActive(true);
     }
 }

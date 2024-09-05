@@ -14,6 +14,8 @@ public class Enemy : MonoBehaviour
     [SerializeField] private Animator _anim;
     private Transform _point;
 
+    [SerializeField] private bool stupid;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -26,6 +28,7 @@ public class Enemy : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+
         Vector2 point = _point.position - transform.position;
         if (_point == pointB.transform) {
             _rb.velocity = new Vector2(speed, 0);
