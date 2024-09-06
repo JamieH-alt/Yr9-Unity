@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using Newtonsoft.Json;
 using TMPro;
 using Unity.VisualScripting;
 using UnityEngine;
@@ -55,6 +56,8 @@ public class NextLevel : MonoBehaviour, IDataPersistence
         }
 
         data.beat = beatLevels;
+        string json = JsonConvert.SerializeObject(data.beat, Formatting.None);
+        print(json);
 
         data.times = times;
         
@@ -63,7 +66,6 @@ public class NextLevel : MonoBehaviour, IDataPersistence
     void OnTriggerEnter2D(Collider2D target) {
         if (target.gameObject.CompareTag("Finish")) {
             beatLevels[SceneManager.GetActiveScene().buildIndex.ToString()] = true;
-            DataPersistentManager.instance.SaveGame();
             Time.timeScale = 0f;
             _ui.SetActive(true);
             _disableUi.SetActive(false);

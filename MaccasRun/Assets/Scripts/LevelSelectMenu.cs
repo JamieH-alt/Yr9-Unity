@@ -27,16 +27,11 @@ public class LevelSelectMenu : MonoBehaviour
 
     void Update()
     {
-        foreach (GameObject part in container)
+        for (int x = 1; x < container.Count; x++)
         {
-            int x = container.FindIndex(x => x.name == part.name);
-            if (x - 1 < 0) continue;
-            int i = levels[container.FindIndex(x => x.name == part.name) - 1];
-            if (i == 0) continue;
-
-            print(NextLevel.instance.beatLevels.Count);
-
-            if (NextLevel.instance.beatLevels.Count < x - 1)
+            int i = levels[x - 1];
+            
+            if (NextLevel.instance.beatLevels.Count < x)
             {
                 container[x].transform.Find("Locked").gameObject.SetActive(true);
                 container[x].transform.Find(container[x].transform.name).gameObject.SetActive(false);

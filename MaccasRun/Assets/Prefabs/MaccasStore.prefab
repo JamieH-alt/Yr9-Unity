@@ -12,7 +12,6 @@ GameObject:
   - component: {fileID: 7061318771324361083}
   - component: {fileID: 6196074422924995635}
   - component: {fileID: 1403463315925337254}
-  - component: {fileID: 237978683680501364}
   m_Layer: 0
   m_Name: MaccasStore
   m_TagString: Finish
@@ -159,19 +158,3 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 0.563401}
   m_EdgeRadius: 0
---- !u!114 &237978683680501364
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6226079098963216000}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a0761c268b56ab84bbd58650ace3aeca, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _ui: {fileID: 0}
-  _disableUi: {fileID: 0}
-  _won: {fileID: 0}
-  _FX: {fileID: 0}
