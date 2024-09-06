@@ -89,10 +89,6 @@ public class OpenLevelMenu : MonoBehaviour
         {
             bestTime.text = String.Format(@"{0:mm\:ss\.ff}", _times[_id.ToString()]);
         }
-        else
-        {
-            print("hmmm");
-        }
 
         levelOpenUi.SetActive(true);
         levelSelectUi.SetActive(false);

@@ -18,8 +18,8 @@ public class NextLevel : MonoBehaviour, IDataPersistence
     
     public static NextLevel instance;
 
-    public Dictionary<string, bool> beatLevels = null;
-    public Dictionary<string, TimeSpan> times = null;
+    public Dictionary<string, bool> beatLevels = new Dictionary<string, bool>();
+    public Dictionary<string, TimeSpan> times = new Dictionary<string, TimeSpan>();
 
     void Awake() 
     {
@@ -57,6 +57,7 @@ public class NextLevel : MonoBehaviour, IDataPersistence
         data.beat = beatLevels;
 
         data.times = times;
+        
     }
 
     void OnTriggerEnter2D(Collider2D target) {
@@ -74,6 +75,7 @@ public class NextLevel : MonoBehaviour, IDataPersistence
     public void LoadNextScene() {
         Time.timeScale = 1f;
         int nextSceneIndex = SceneManager.GetActiveScene().buildIndex + 1;
+        DataPersistentManager.instance.SaveGame();
 
         if (nextSceneIndex < SceneManager.sceneCountInBuildSettings) {
             SceneManager.LoadScene(nextSceneIndex);

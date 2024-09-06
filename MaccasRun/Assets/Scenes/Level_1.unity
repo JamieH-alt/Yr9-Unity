@@ -60318,11 +60318,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4499061449216545175, guid: 1ae0d674100bb5949aab002184a0def3, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -41.53759
+      value: -41.537884
       objectReference: {fileID: 0}
     - target: {fileID: 7999627323380507703, guid: 1ae0d674100bb5949aab002184a0def3, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -41.53759
+      value: -41.537884
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -60548,6 +60548,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1077012136356892231, guid: 77fee418c0ec29044924e717ec98fcb5, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 1278843508}
     - target: {fileID: 1978077259922210558, guid: 77fee418c0ec29044924e717ec98fcb5, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 

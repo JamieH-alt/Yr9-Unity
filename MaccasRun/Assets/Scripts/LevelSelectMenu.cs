@@ -32,8 +32,11 @@ public class LevelSelectMenu : MonoBehaviour
             int x = container.FindIndex(x => x.name == part.name);
             if (x - 1 < 0) continue;
             int i = levels[container.FindIndex(x => x.name == part.name) - 1];
-            
-            if (NextLevel.instance.beatLevels.Count < x)
+            if (i == 0) continue;
+
+            print(NextLevel.instance.beatLevels.Count);
+
+            if (NextLevel.instance.beatLevels.Count < x - 1)
             {
                 container[x].transform.Find("Locked").gameObject.SetActive(true);
                 container[x].transform.Find(container[x].transform.name).gameObject.SetActive(false);
