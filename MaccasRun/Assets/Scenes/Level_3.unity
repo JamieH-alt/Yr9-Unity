@@ -294,6 +294,10 @@ PrefabInstance:
       propertyPath: m_Camera
       value: 
       objectReference: {fileID: 1349076923}
+    - target: {fileID: 4709253621171533170, guid: 77fee418c0ec29044924e717ec98fcb5, type: 3}
+      propertyPath: _CRTVolume
+      value: 
+      objectReference: {fileID: 1037685701}
     - target: {fileID: 5781935450749016232, guid: 77fee418c0ec29044924e717ec98fcb5, type: 3}
       propertyPath: m_AnchorMax.x
       value: 0
@@ -104827,6 +104831,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b7fbc1d223878834b89f388bb70104d5, type: 3}
+--- !u!1 &1037685701 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5147229108905523479, guid: b7fbc1d223878834b89f388bb70104d5, type: 3}
+  m_PrefabInstance: {fileID: 1037685700}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1040557700
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -106730,7 +106739,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4499061449216545175, guid: 1ae0d674100bb5949aab002184a0def3, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -18.587784
+      value: -18.588371
       objectReference: {fileID: 0}
     - target: {fileID: 4499061449216545175, guid: 1ae0d674100bb5949aab002184a0def3, type: 3}
       propertyPath: m_LocalPosition.y
@@ -106738,7 +106747,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7999627323380507703, guid: 1ae0d674100bb5949aab002184a0def3, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -18.587784
+      value: -18.588371
       objectReference: {fileID: 0}
     - target: {fileID: 7999627323380507703, guid: 1ae0d674100bb5949aab002184a0def3, type: 3}
       propertyPath: m_LocalPosition.y

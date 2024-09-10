@@ -4,12 +4,35 @@ using UnityEngine;
 using UnityEngine.Audio;
 using UnityEngine.UI;
 
-public class SettingsMenu : MonoBehaviour
+public class SettingsMenu : MonoBehaviour, IDataPersistence
 {
     [SerializeField] private AudioMixer audioMixer;
     [SerializeField] private Slider _FX;
     [SerializeField] private Slider _Master;
     [SerializeField] private Slider _Music;
+    
+    [Header("CRT")]
+    [SerializeField] private Button _CRT;
+
+    [SerializeField] private Sprite _CRT_Active;
+    [SerializeField] private Sprite _CRT_Inactive;
+
+    [SerializeField] private GameObject _CRTVolume;
+
+    public bool CRTActive = true;
+
+    public static SettingsMenu instance;
+
+    void Awake()
+    {
+        if (instance == null)
+        {
+            instance = this;
+        }
+        DataPersistentManager.instance.LoadGame();
+        print(CRTActive);
+        _CRTVolume.SetActive(CRTActive);
+    }
 
     private void Start() {
         float music;
@@ -24,6 +47,22 @@ public class SettingsMenu : MonoBehaviour
         audioMixer.SetFloat("FX", PlayerPrefs.GetFloat("FXVol"));
         audioMixer.GetFloat("FX", out fx);
         _FX.value = fx;
+    }
+    
+    public void CRTToggle()
+    {
+        if (CRTActive)
+        {
+            _CRT.image.sprite = _CRT_Inactive;
+            CRTActive = false;
+        }
+        else
+        {
+            _CRT.image.sprite = _CRT_Active;
+            CRTActive = true;
+        }
+        _CRTVolume.SetActive(CRTActive);
+        DataPersistentManager.instance.SaveGame();
     }
 
     public void SetMusicVolume() {
@@ -42,5 +81,17 @@ public class SettingsMenu : MonoBehaviour
         float volume = _FX.value;
         audioMixer.SetFloat("FX", volume);
         PlayerPrefs.SetFloat("FXVol", volume);
+    }
+
+    public void LoadData(GameData data)
+    {
+        CRTActive = data.CRTActive;
+        _CRTVolume.SetActive(CRTActive);
+    }
+
+    public void SaveData(ref GameData data)
+    {
+        data.CRTActive = CRTActive;
+        print(data.CRTActive);
     }
 }
