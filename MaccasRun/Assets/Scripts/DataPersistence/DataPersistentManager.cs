@@ -43,6 +43,7 @@ public class DataPersistentManager : MonoBehaviour
 
     public void LoadGame()
     {
+        this.dataPersistenceObjects = FindAllDataPersistenceObjects();
         //Load any saved data from a file using the data handler
         // if no data can be loaded, initialize to a new game
         this._gameData = dataHandler.Load();
@@ -61,6 +62,7 @@ public class DataPersistentManager : MonoBehaviour
 
     public void SaveGame()
     {
+        this.dataPersistenceObjects = FindAllDataPersistenceObjects();
         // TODO - pass the data to other scripts so they can update it.
         foreach (IDataPersistence dataPersistenceObj in dataPersistenceObjects)
         {

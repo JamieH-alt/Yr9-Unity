@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.Audio;
 using UnityEngine.UI;
 
-public class SettingsMenu : MonoBehaviour, IDataPersistence
+public class SettingsMenu : MonoBehaviour
 {
     [SerializeField] private AudioMixer audioMixer;
     [SerializeField] private Slider _FX;
@@ -29,9 +29,6 @@ public class SettingsMenu : MonoBehaviour, IDataPersistence
         {
             instance = this;
         }
-        DataPersistentManager.instance.LoadGame();
-        print(CRTActive);
-        _CRTVolume.SetActive(CRTActive);
     }
 
     private void Start() {
@@ -47,6 +44,12 @@ public class SettingsMenu : MonoBehaviour, IDataPersistence
         audioMixer.SetFloat("FX", PlayerPrefs.GetFloat("FXVol"));
         audioMixer.GetFloat("FX", out fx);
         _FX.value = fx;
+        if (CRTToggleScript.instance.CRTActive && CRTActive == false) {
+            CRTToggle();
+        }
+        if (!CRTToggleScript.instance.CRTActive && CRTActive) {
+            CRTToggle();
+        }
     }
     
     public void CRTToggle()
@@ -61,7 +64,7 @@ public class SettingsMenu : MonoBehaviour, IDataPersistence
             _CRT.image.sprite = _CRT_Active;
             CRTActive = true;
         }
-        _CRTVolume.SetActive(CRTActive);
+        CRTToggleScript.instance.CRTVolume(CRTActive);
         DataPersistentManager.instance.SaveGame();
     }
 
@@ -81,17 +84,5 @@ public class SettingsMenu : MonoBehaviour, IDataPersistence
         float volume = _FX.value;
         audioMixer.SetFloat("FX", volume);
         PlayerPrefs.SetFloat("FXVol", volume);
-    }
-
-    public void LoadData(GameData data)
-    {
-        CRTActive = data.CRTActive;
-        _CRTVolume.SetActive(CRTActive);
-    }
-
-    public void SaveData(ref GameData data)
-    {
-        data.CRTActive = CRTActive;
-        print(data.CRTActive);
     }
 }

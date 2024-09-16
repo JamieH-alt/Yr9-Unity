@@ -32,34 +32,42 @@ public class NextLevel : MonoBehaviour, IDataPersistence
 
     public void LoadData(GameData data)
     {
-        times = data.times;
-        beatLevels = data.beat;
-        string _id = SceneManager.GetActiveScene().buildIndex.ToString();
-        if (times.ContainsKey(_id))
-        {
-            topTime = times[_id];
-        }
-        else
-        {
-            topTime = TimeSpan.MaxValue;
+        try {
+            times = data.times;
+            beatLevels = data.beat;
+            string _id = SceneManager.GetActiveScene().buildIndex.ToString();
+            if (times.ContainsKey(_id))
+            {
+                topTime = times[_id];
+            }
+            else
+            {
+                topTime = TimeSpan.MaxValue;
+            }
+        } catch {
+            Debug.Log("Error Loading!");
         }
     }
 
     public void SaveData(ref GameData data)
     {
-        times = data.times;
+        try {
+            times = data.times;
 
-        string _id = SceneManager.GetActiveScene().buildIndex.ToString();
-        if (topTime.TotalMilliseconds > stopWatch.instance.milliSeconds())
-        {
-            times[_id] = TimeSpan.FromMilliseconds(stopWatch.instance.milliSeconds());
+            string _id = SceneManager.GetActiveScene().buildIndex.ToString();
+            if (topTime.TotalMilliseconds > stopWatch.instance.milliSeconds())
+            {
+                times[_id] = TimeSpan.FromMilliseconds(stopWatch.instance.milliSeconds());
+            }
+
+            data.beat = beatLevels;
+            string json = JsonConvert.SerializeObject(data.beat, Formatting.None);
+            print(json);
+
+            data.times = times;
+        } catch {
+            Debug.Log("Error Saving!");
         }
-
-        data.beat = beatLevels;
-        string json = JsonConvert.SerializeObject(data.beat, Formatting.None);
-        print(json);
-
-        data.times = times;
         
     }
 

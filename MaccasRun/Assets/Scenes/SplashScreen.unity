@@ -11347,6 +11347,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: DataPersistence
       objectReference: {fileID: 0}
+    - target: {fileID: 1301911959001375729, guid: 8f54433e4da669e41afdbbcad9ba9445, type: 3}
+      propertyPath: _CRTVolume
+      value: 
+      objectReference: {fileID: 7225292913308088579}
     - target: {fileID: 6015860593161034322, guid: 8f54433e4da669e41afdbbcad9ba9445, type: 3}
       propertyPath: m_LocalPosition.x
       value: 9.644578

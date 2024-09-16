@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6015860593161034322}
   - component: {fileID: 8845781619070005061}
+  - component: {fileID: 1301911959001375729}
   m_Layer: 0
   m_Name: DataPersistence
   m_TagString: Untagged
@@ -46,3 +47,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   fileName: data.game
   useEncryption: 0
+--- !u!114 &1301911959001375729
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 247169846533311092}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbc8ce91f8c9827408946116e04586a0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _CRTVolume: {fileID: 0}
+  CRTActive: 1

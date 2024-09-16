@@ -1041,6 +1041,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: DataPersistence
       objectReference: {fileID: 0}
+    - target: {fileID: 1301911959001375729, guid: 8f54433e4da669e41afdbbcad9ba9445, type: 3}
+      propertyPath: _CRTVolume
+      value: 
+      objectReference: {fileID: 1037685701}
     - target: {fileID: 6015860593161034322, guid: 8f54433e4da669e41afdbbcad9ba9445, type: 3}
       propertyPath: m_LocalPosition.x
       value: 9.644578
@@ -106739,7 +106743,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4499061449216545175, guid: 1ae0d674100bb5949aab002184a0def3, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -18.588371
+      value: -18.58755
       objectReference: {fileID: 0}
     - target: {fileID: 4499061449216545175, guid: 1ae0d674100bb5949aab002184a0def3, type: 3}
       propertyPath: m_LocalPosition.y
@@ -106747,7 +106751,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7999627323380507703, guid: 1ae0d674100bb5949aab002184a0def3, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -18.588371
+      value: -18.58755
       objectReference: {fileID: 0}
     - target: {fileID: 7999627323380507703, guid: 1ae0d674100bb5949aab002184a0def3, type: 3}
       propertyPath: m_LocalPosition.y

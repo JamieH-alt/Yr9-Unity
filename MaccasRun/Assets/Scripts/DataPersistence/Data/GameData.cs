@@ -21,7 +21,7 @@ public class GameData
         this.fries = 0;
         this.times = new Dictionary<string, TimeSpan>();
         this.beat = new Dictionary<string, bool>();
-        this.CRTActive = true;
+        this.CRTActive = false;
         this.sprite = new Tuple<Sprite, RuntimeAnimatorController>(sprite2, anim);
     }
 }
