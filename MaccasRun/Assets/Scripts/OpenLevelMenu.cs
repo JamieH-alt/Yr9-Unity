@@ -40,6 +40,18 @@ public class OpenLevelMenu : MonoBehaviour
     [SerializeField] private String sceneName3;
     [SerializeField] private int id3;
 
+    [Header("Level 4")] 
+    [SerializeField] private Sprite icon4;
+    [SerializeField] private String title4;
+    [SerializeField] private String sceneName4;
+    [SerializeField] private int id4;
+    
+    [Header("Level 5")]
+    [SerializeField] private Sprite icon5;
+    [SerializeField] private String title5;
+    [SerializeField] private String sceneName5;
+    [SerializeField] private int id5;
+
     private Dictionary<string, TimeSpan> _times = new Dictionary<string, TimeSpan>();
 
     private String _currentStringName = null;
@@ -77,8 +89,20 @@ public class OpenLevelMenu : MonoBehaviour
             _title = title3;
             _stringName = sceneName3;
             _id = id3;
+        } else if (id == 4)
+        {
+            _icon = icon4;
+            _title = title4;
+            _stringName = sceneName4;
+            _id = id4;
+        } else if (id == 5)
+        {
+            _icon = icon5;
+            _title = title5;
+            _stringName = sceneName5;
+            _id = id5;
         }
-
+        
         _currentStringName = _stringName;
 
         titletext.text = _title;
