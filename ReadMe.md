@@ -1,5 +1,7 @@
 # 9CT1A Task #3 Part B.
 
+---
+
 ## Identifying And Defining
 ### Identifying a need
 
@@ -52,6 +54,9 @@ Depictions of characters can easily become offensive and harmful even when its n
 All media can have a deep impact on their audience's mental health, games included. However my game is made to be a simple happy golucky card-game suite to help students with their math skills. At all times the game should be chirpy with positive music in the background to pursuade players into feeling at ease during gameplay. Gameplay is simple and will contain no violent characteristics as its a simple card game. In the case where any games are added that can include negative imagery (be-it violence or otherwise), that game will have a warning produced when the user attempts to boot into it, giving them a chance to rethink their decision. \
 **Cultural Sensitivites:** \
 Whilst I'm not planning on my game being culturally dissensitive there are some foreseeable situations where this could occur. Examples of this include, incorrect rules wihtin games which could be considered disrespect, using names that have inappropriate connotation for primary schools, or including games associated with gambling. All of these are legitimate concerns when it comes to any game, but to assure the game's open nature for all culture, research will be done into the background of all games so I can make a more culturally accurate decision.
+
+---
+
 ## Researching Planning
 ### Evaluation Existing Ideas
 | Game | Plus | Minus | Implications |
@@ -59,3 +64,9 @@ Whilst I'm not planning on my game being culturally dissensitive there are some 
 | **Table Top Simulator** <br />![Table Top Simulator](/images/tabletopsimulator.jfif) | **-** Tabletop simulator has the ability <br />to simulate any boardgame or <br />card game to a simple degree. <br />(i.e Uno, Dungeons and Dragons, <br />Monopoly) <br />**-** Physics allow for real feeling dice rolls, <br />less gameified elements, making it <br />feel better to play. <br />**-** Customisability allows for a different<br /> experience for each player, making <br />players have something to work<br />towards. | **-** Tabletop simulator has complicated UI that <br />can often be hard to use and can make it <br /> difficult for the user to play it intuitively. <br /> **-** Rules are not automatic, and its essentially <br />just a physics simulator, meaning players <br />need to manage the rules and regulations<br /> by themselves which can often become a hastle.<br /> **-** AI is nonexistent within TTS (Tabletop Simulator) <br />which makes it so you have to either have friends<br /> or find a lobby.| **-** The  basic few implications <br /> of tabletop simulator's mechanics <br />are all based upon the anti <br />gameiness of the project.<br /> As I find the card game experience<br /> to be far more immersive when <br />it feels like I'm actually playing with <br /> cards. As such I'll try to avoid <br />gamey features like seethrough cards <br />etc... having an animation for most features   |
 | **UNO!<sup>TM</sup>** <br />![Uno](/images/uno.jfif) | **-** Uno allows for rule changes to <br />the base game, allowing "house"<br /> rules to be server to server.<br />**-** Cards have hover animations, <br /> showing the player when they've<br /> selected a card.<br />**-** The pile in the middle feels like<br /> an actual chaotic uno pile, again<br /> removing that gamey feel.<br />**-** Graphics are simplistic yet pleasing<br /> with a good balance between <br />cartoony and realistic. | **-** Game is very limited, there are only a<br /> few things that you can actually play. <br />**-** Replayability value is low, eventually<br />uno gets stale and you have to find<br />something else to play. | **-** Again, we must focus on an<br /> Anti-Gamey aesthetic for the game.<br />Trying to not "baby" players/users into <br />a lull. Also focussing on that replayability <br />Games should never feel the "samey", <br />whether this is done by music, art, cool events<br />or something. |
 | **Microsoft Solitaire** <br />![Uno](/images/solitaire.jfif) | **-** Solitaire is very easy to run for bad<br /> computers, I would assume any<br /> machine that has windows can run <br />Microsoft Solitaire.<br /> **-** Very simplistic instructions, It's extremely <br />easy to grasp the game just from what we<br />are told within the game itself, this kind of<br /> independance is important.| **-** Once again we find ourselves with this<br />simplicity finding itself in a bit of a lull,<br />boring the player and essentially being<br /> an advanced way of twiddling your thumbs.<br />**-**  | Placeholder |
+
+### Flowcharts and Pseudo Code
+
+### Storyboards
+
+### Gantt Chart
