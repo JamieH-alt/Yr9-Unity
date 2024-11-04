@@ -124,6 +124,6 @@ END Saving
 - [x] Splash Screen
 - [x] Level Select
 - [x] Level Play
-- [ ] Basic Table Example
+- [x] Basic Table Example
 ### Gantt Chart
 ![GanttChart](images/GanttChart.png)
