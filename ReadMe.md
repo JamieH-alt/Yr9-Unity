@@ -68,7 +68,7 @@ Whilst I'm not planning on my game being culturally dissensitive there are some 
 
 #### Clicking Card/UI (User Interaction)
 ```
-BEING CardUI
+BEGIN CardUI
 	INPUT cardClicked
 	IF cardClicked is 'Play' THEN
 		Load Level Select Menu
@@ -81,7 +81,7 @@ END CardUI
 
 #### Card Drawing
 ```
-BEING CardDrawing
+BEGIN CardDrawing
 	INPUT deckDrawn
 	Deck = list of all un-drawn cards
 	Card = Random card from Deck
